@@ -3704,7 +3704,7 @@
 	(footprint "RPi_Pico_SMD_TH"
 		(layer "F.Cu")
 		(uuid "38587d63-7425-4bda-807a-2d5bde891f1c")
-		(at 209.404157 95.553697 -15)
+		(at 210.730194 92.627828 -15)
 		(property "Reference" "_1"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -4831,17 +4831,6 @@
 			(effects
 				(font
 					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "Copper Keepouts shown on Dwgs layer"
-			(at 0.1 -30.2 0)
-			(layer "Cmts.User")
-			(uuid "a76462d1-0fd3-4f37-8806-f7a775d5554a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9804,7 +9793,7 @@
 	(footprint "ceoloide:trrs_pj320a (reversible, symmetric)"
 		(layer "F.Cu")
 		(uuid "60aba678-1818-42d8-9d0f-b86b96647227")
-		(at 209.306933 122.962465 -105)
+		(at 214.495679 130.54985 -105)
 		(property "Reference" "TRRS1"
 			(at 0 14.2 -105)
 			(layer "F.SilkS")

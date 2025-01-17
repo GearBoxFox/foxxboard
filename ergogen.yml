@@ -1,0 +1,145 @@
+meta:
+  engine: 4.1.0
+units:
+  # Proxy spacing, cherry kx size
+  kx: U + 0.25
+  ky: U + 0.25
+  # Padding
+  px: kx + 4
+  py: ky + 4
+points:
+  zones:
+    matrix:
+      # fix kicad anchor
+      anchor:
+        shift: [100, -100]
+      key:
+        padding: 1ky
+        spread: 1kx
+      columns:
+        outer:
+          rows.mod.skip: true
+          key:
+            width: 1.5kx
+            
+        pinky:
+          key.stagger: 1kx
+          key.spread: 1kx + 5.5
+        ring:
+        middle:
+          key.stagger: 2.5
+        index:
+          key.stagger: -2.5
+        inner:
+          rows.mod.skip: true
+          key.stagger: -2.5
+      rows:
+        mod:
+        bottom:
+        home:
+        top:
+        num:
+    thumbs:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        ref: matrix_inner_mod
+        shift: [0, -22]
+      columns:
+        layer:
+          key:
+            splay: -15
+        space:
+          rows.top.skip: true
+          key:
+            height: 2kx
+            shift: [0, 0.5kx]
+      rows:
+        cluster:
+        top:
+  rotate: -15
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [px, py]
+  keys:
+  - what: rectangle
+    where: true
+    bound: false
+    size: [kx-0.5, ky-0.5]
+  board:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        - ref: matrix_outer_num
+          shift: [-0.75px, 1.25px]
+        - ref: matrix_pinky_num
+          shift: [-0.5px, 0.5px]
+        - ref: matrix_middle_num
+          shift: [-0.5px, 0.5px]
+        - ref: matrix_middle_num
+          shift: [0.5px, 0.5px]
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.5px]
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.0px]
+        - ref: matrix_inner_top
+          shift: [1.7px, 0.7px]
+        - ref: thumbs_space_cluster
+          shift: [0.5px, 1.25px]
+        - ref: thumbs_space_cluster
+          shift: [0.5px, -px]
+        - ref: thumbs_layer_cluster
+          shift: [-0.5px, -0.55px]
+        - ref: matrix_ring_mod
+          shift: [0.5px , -0.5px]
+        - ref: matrix_outer_bottom
+          shift: [-0.75px, -0.5px]
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
+pcbs:
+  tutorial:
+    outlines:
+      main:
+        outline: board
+    footprints:
+      mx_hotswap:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: true
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      pico:
+        what: "Orpheus Pico"
+        where: 
+          ref: matrix_inner_home
+          shift: [25, 6.5]
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      trrs:
+        what: ceoloide/trrs_pj320a
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [32, -20]
+        params:
+          SL: GND
+          R2: P2
+          TP: VCC # Tip and Ring 1 are joined together
+          reversible: true
+          symmetric: true
+cases:
