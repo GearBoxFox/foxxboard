@@ -154,4 +154,22 @@ pcbs:
           ref: matrix_inner_home
           rotate: -90
           shift: [31, -16]
+      front_reset:
+        what: button
+        params:
+          side: "F"
+          from: GND
+          to: RUN
+        where: 
+          ref: matrix_inner_home
+          shift: [31, -20]
+      back_reset:
+        what: button
+        params:
+          side: "B"
+          from: GND
+          to: RUN
+        where: 
+          ref: matrix_inner_home
+          shift: [31, -20]
 cases:
