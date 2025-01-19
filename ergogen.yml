@@ -162,7 +162,7 @@ pcbs:
           to: RUN
         where: 
           ref: matrix_inner_home
-          shift: [31, -20]
+          shift: [18, -27]
       back_reset:
         what: button
         params:
@@ -171,5 +171,13 @@ pcbs:
           to: RUN
         where: 
           ref: matrix_inner_home
-          shift: [31, -20]
+          shift: [18, -27]
+      rotary:
+        what: rotary
+        params:
+          from: "GP0"
+          to: "GP1"
+          A: "GP16"
+          B: "GND"
+          C: "GP17"
 cases:
