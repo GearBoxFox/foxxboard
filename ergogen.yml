@@ -12,7 +12,7 @@ points:
     matrix:
       # fix kicad anchor
       anchor:
-        shift: [100, -100]
+        shift: [150, -150]
       key:
         padding: 1ky
         spread: 1kx
@@ -87,7 +87,7 @@ outlines:
         - ref: matrix_inner_num
           shift: [0.5px, 0.0px]
         - ref: matrix_inner_top
-          shift: [1.7px, 0.7px]
+          shift: [1.7px, 0.81px]
         - ref: thumbs_space_cluster
           shift: [0.5px, 1.25px]
         - ref: thumbs_space_cluster
@@ -119,9 +119,11 @@ pcbs:
           to: "{{colrow}}"
       pico:
         what: "Orpheus Pico"
+        params:
+          mounted: "both"
         where: 
           ref: matrix_inner_home
-          shift: [25, 6.5]
+          shift: [25, 11.5]
       diode:
         what: diode
         where: true
@@ -135,11 +137,21 @@ pcbs:
         where:
           ref: matrix_inner_home
           rotate: -90
-          shift: [32, -20]
+          shift: [38.5, -27]
         params:
           SL: GND
           R2: P2
           TP: VCC # Tip and Ring 1 are joined together
           reversible: true
           symmetric: true
+      oled:
+        what: oled
+        params:
+          side: "f"
+          SDA: GP4
+          SCL: GP5
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [31, -16]
 cases:
