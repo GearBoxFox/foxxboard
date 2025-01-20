@@ -19,6 +19,10 @@ points:
       columns:
         outer:
           rows.mod.skip: true
+          rows.num.row_net: GP10
+          rows.top.row_net: GP11
+          rows.home.row_net: GP12
+          rows.bottom.row_net: GP13
           key:
             width: 1.5kx
             column_net: GP1
@@ -149,6 +153,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
+          rotate: 180
           shift: [0, -5]
       trrs:
         what: ceoloide/trrs_pj320a
