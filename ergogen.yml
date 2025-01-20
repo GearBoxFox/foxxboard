@@ -63,7 +63,7 @@ points:
           key:
             splay: -15
             column_net: GP8
-            key.top.row_net: GP13
+          rows.top.row_net: GP13
         space:
           rows.top.skip: true
           key:
@@ -131,7 +131,7 @@ pcbs:
         params:
           keycaps: true
           reverse: true
-          hotswap: false
+          hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
       pico:
