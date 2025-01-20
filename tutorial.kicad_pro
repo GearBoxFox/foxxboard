@@ -529,10 +529,6 @@
       {
         "netclass": "Default",
         "pattern": "R1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "P2"
       }
     ]
   },

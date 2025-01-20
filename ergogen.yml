@@ -26,13 +26,16 @@ points:
           key.stagger: 1kx
           key.spread: 1kx + 5.5
         ring:
+          key.splay: -0.5
         middle:
           key.stagger: 2.5
         index:
           key.stagger: -2.5
+          
         inner:
           rows.mod.skip: true
           key.stagger: -2.5
+          key.splay: -0.5
       rows:
         mod:
         bottom:
@@ -77,19 +80,19 @@ outlines:
         - ref: matrix_outer_num
           shift: [-0.75px, 1.25px]
         - ref: matrix_pinky_num
-          shift: [-0.5px, 0.5px]
+          shift: [-0.5px, 0.6px]
         - ref: matrix_middle_num
-          shift: [-0.5px, 0.5px]
+          shift: [-0.5px, 0.75px]
         - ref: matrix_middle_num
-          shift: [0.5px, 0.5px]
+          shift: [0.5px, 0.75px]
         - ref: matrix_inner_num
           shift: [0.5px, 0.5px]
         - ref: matrix_inner_num
           shift: [0.5px, 0.0px]
         - ref: matrix_inner_top
-          shift: [1.7px, 0.81px]
+          shift: [1.8px, 0.81px]
         - ref: thumbs_space_cluster
-          shift: [0.5px, 1.25px]
+          shift: [0.6px, 1.25px]
         - ref: thumbs_space_cluster
           shift: [0.5px, -px]
         - ref: thumbs_layer_cluster
@@ -121,6 +124,7 @@ pcbs:
         what: "Orpheus Pico"
         params:
           mounted: "both"
+          mountingType: "smd"
         where: 
           ref: matrix_inner_home
           shift: [25, 11.5]
@@ -137,10 +141,10 @@ pcbs:
         where:
           ref: matrix_inner_home
           rotate: -90
-          shift: [38.5, -27]
+          shift: [40, -27]
         params:
           SL: GND
-          R2: P2
+          R2: GP15
           TP: VCC # Tip and Ring 1 are joined together
           reversible: true
           symmetric: true
@@ -148,8 +152,8 @@ pcbs:
         what: oled
         params:
           side: "f"
-          SDA: GP4
-          SCL: GP5
+          SDA: GP2
+          SCL: GP3
         where:
           ref: matrix_inner_home
           rotate: -90
@@ -175,9 +179,32 @@ pcbs:
       rotary:
         what: rotary
         params:
-          from: "GP0"
-          to: "GP1"
-          A: "GP16"
-          B: "GND"
-          C: "GP17"
+          from: GP0
+          to: GP1
+          A: GP16
+          B: GND
+          C: GP17
+        where:
+          ref: matrix_outer_num
+          shift: [0, 0.75px]
+      mounting_thumb:
+        what: mountinghole
+        where:
+          ref: thumbs_space_cluster
+          shift: [8.0, px + 1.0]
+      mounting_bottom:
+        what: mountinghole
+        where:
+          ref: thumbs_space_cluster
+          shift: [-40.0, -7.5]
+      mounting_top:
+        what: mountinghole
+        where:
+          ref: matrix_middle_num
+          shift: [0, 14]
+      mounting_rotary:
+        what: mountinghole
+        where:
+          ref: matrix_outer_num
+          shift: [10, 28]
 cases:
