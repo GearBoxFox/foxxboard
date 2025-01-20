@@ -256,6 +256,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "GP1"
+      },
+      {
+        "netclass": "Default",
         "pattern": "outer_bottom"
       },
       {
@@ -269,6 +273,10 @@
       {
         "netclass": "Default",
         "pattern": "outer_num"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GP4"
       },
       {
         "netclass": "Default",
@@ -292,6 +300,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "GP5"
+      },
+      {
+        "netclass": "Default",
         "pattern": "ring_mod"
       },
       {
@@ -309,6 +321,10 @@
       {
         "netclass": "Default",
         "pattern": "ring_num"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GP6"
       },
       {
         "netclass": "Default",
@@ -332,6 +348,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "GP7"
+      },
+      {
+        "netclass": "Default",
         "pattern": "index_mod"
       },
       {
@@ -349,6 +369,10 @@
       {
         "netclass": "Default",
         "pattern": "index_num"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GP8"
       },
       {
         "netclass": "Default",
@@ -384,35 +408,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "GP1"
-      },
-      {
-        "netclass": "Default",
         "pattern": "GP2"
       },
       {
         "netclass": "Default",
         "pattern": "GP3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GP4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GP5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GP6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GP7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GP8"
       },
       {
         "netclass": "Default",

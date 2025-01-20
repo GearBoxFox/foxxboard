@@ -21,27 +21,36 @@ points:
           rows.mod.skip: true
           key:
             width: 1.5kx
-            
+            column_net: GP1
         pinky:
           key.stagger: 1kx
           key.spread: 1kx + 5.5
+          key.column_net: GP4
         ring:
           key.splay: -0.5
+          key.column_net: GP5
         middle:
           key.stagger: 2.5
+          key.column_net: GP6
         index:
           key.stagger: -2.5
-          
+          key.column_net: GP7
         inner:
           rows.mod.skip: true
           key.stagger: -2.5
           key.splay: -0.5
+          key.column_net: GP8
       rows:
         mod:
+          row_net: GP13
         bottom:
+          row_net: GP12
         home:
+          row_net: GP11
         top:
+          row_net: GP10
         num:
+          row_net: GP9
     thumbs:
       key:
         padding: 1ky
@@ -53,14 +62,19 @@ points:
         layer:
           key:
             splay: -15
+            column_net: GP8
+            key.top.row_net: GP13
         space:
           rows.top.skip: true
           key:
             height: 2kx
             shift: [0, 0.5kx]
+            column_net: GP8
       rows:
         cluster:
+          row_net: GP14
         top:
+          row_net: GP14
   rotate: -15
 outlines:
   raw:
@@ -117,7 +131,7 @@ pcbs:
         params:
           keycaps: true
           reverse: true
-          hotswap: true
+          hotswap: false
           from: "{{column_net}}"
           to: "{{colrow}}"
       pico:
@@ -179,8 +193,8 @@ pcbs:
       rotary:
         what: rotary
         params:
-          from: GP0
-          to: GP1
+          from: GP1
+          to: GP9
           A: GP16
           B: GND
           C: GP17
