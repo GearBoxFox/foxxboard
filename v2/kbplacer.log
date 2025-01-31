@@ -1,0 +1,1139 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Dec 24 2024, 05:27:06) [MSC v.1942 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 8.0.8 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\lboog\\GitHub\\hackpad-v2\\v2\\points.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 5.0, "y": 5.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:123]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Row 4', 'Col 7'}): ['SW28'], frozenset({'Col 4', 'Row 1'}): ['SW4'], frozenset({'Row 4', 'Col 3'}): ['SW24'], frozenset({'Net-(D29-K)', 'Col 5'}): ['SW32'], frozenset({'Net-(D29-K)', 'Col 3'}): ['SW30'], frozenset({'Row 4', 'Col 2'}): ['SW23'], frozenset({'Row 4', 'Col 1'}): ['SW22'], frozenset({'Col 4', 'Row 3'}): ['SW18'], frozenset({'Col 7', 'Row 2'}): ['SW14'], frozenset({'Col 6', 'Row 4'}): ['SW27'], frozenset({'Col 2', 'Row 2'}): ['SW9'], frozenset({'Col 4', 'Net-(D29-K)'}): ['SW31'], frozenset({'Col 5', 'Row 4'}): ['SW26'], frozenset({'Col 5', 'Row 2'}): ['SW12'], frozenset({'Col 6', 'Row 3'}): ['SW20'], frozenset({'Row 3', 'Col 2'}): ['SW16'], frozenset({'Col 6', 'Row 1'}): ['SW6'], frozenset({'Row 1', 'Col 2'}): ['SW2'], frozenset({'Col 4', 'Row 4'}): ['SW25'], frozenset({'Row 2', 'Col 3'}): ['SW10'], frozenset({'Col 5', 'Row 1'}): ['SW5'], frozenset({'Col 6', 'Row 2'}): ['SW13'], frozenset({'Col 4', 'Row 2'}): ['SW11'], frozenset({'Row 1', 'Col 3'}): ['SW3'], frozenset({'Col 5', 'Row 3'}): ['SW19'], frozenset({'Row 3', 'Col 3'}): ['SW17'], frozenset({'Col 7', 'Row 1'}): ['SW7'], frozenset({'Row 3', 'Col 1'}): ['SW15'], frozenset({'Row 1', 'Col 1'}): ['SW1'], frozenset({'Col 7', 'Row 3'}): ['SW21'], frozenset({'Net-(D29-K)', 'Col 2'}): ['SW29'], frozenset({'Col 1', 'Row 2'}): ['SW8']})
+[key_placer.py:127]: Diodes by switch: {'SW28': ['D28'], 'SW16': ['D16'], 'SW14': ['D14'], 'SW24': ['D24'], 'SW20': ['D20'], 'SW13': ['D13'], 'SW1': ['D1'], 'SW32': ['D32'], 'SW27': ['D27'], 'SW19': ['D19'], 'SW3': ['D3'], 'SW7': ['D7'], 'SW8': ['D8'], 'SW15': ['D15'], 'SW11': ['D11'], 'SW6': ['D6'], 'SW29': ['D29'], 'SW4': ['D4'], 'SW31': ['D31'], 'SW9': ['D9'], 'SW30': ['D30'], 'SW22': ['D22'], 'SW10': ['D10'], 'SW17': ['D17'], 'SW12': ['D12'], 'SW21': ['D21'], 'SW5': ['D5'], 'SW2': ['D2'], 'SW18': ['D18'], 'SW26': ['D26'], 'SW23': ['D23'], 'SW25': ['D25']}
+[kle_serial.py:897]: User layout: {'matrix_outer_bottom': {'x': 111.0612247, 'y': -165.0693623, 'r': -15, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 28.950000000000003, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'outer_bottom', 'name': 'matrix_outer_bottom', 'column_net': 'GP1', 'row_net': 'GP13', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'row': 'bottom', 'bind': [10, 10, 10, 0]}}, 'matrix_outer_home': {'x': 116.0564323, 'y': -146.4269938, 'r': -15, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 28.950000000000003, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'outer_home', 'name': 'matrix_outer_home', 'column_net': 'GP1', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'row': 'home', 'bind': [10, 10, 10, 0]}}, 'matrix_outer_top': {'x': 121.0516399, 'y': -127.7846254, 'r': -15, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 28.950000000000003, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'outer_top', 'name': 'matrix_outer_top', 'column_net': 'GP1', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'row': 'top', 'bind': [10, 10, 10, 0]}}, 'matrix_outer_num': {'x': 126.0468475, 'y': -109.1422569, 'r': -15, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 28.950000000000003, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'outer_num', 'name': 'matrix_outer_num', 'column_net': 'GP1', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'row': 'num', 'bind': [0, 10, 10, 0]}}, 'matrix_pinky_mod': {'x': 135.0161852, 'y': -171.4880746, 'r': -15, 'meta': {'stagger': 19.3, 'spread': 24.8, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_mod', 'name': 'matrix_pinky_mod', 'column_net': 'GP4', 'row_net': 'GP13', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'row': 'mod', 'bind': [10, 10, 0, 10]}}, 'matrix_pinky_bottom': {'x': 140.0113928, 'y': -152.8457061, 'r': -15, 'meta': {'stagger': 19.3, 'spread': 24.8, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_bottom', 'name': 'matrix_pinky_bottom', 'column_net': 'GP4', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'row': 'bottom', 'bind': [10, 10, 10, 10]}}, 'matrix_pinky_home': {'x': 145.0066004, 'y': -134.2033377, 'r': -15, 'meta': {'stagger': 19.3, 'spread': 24.8, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_home', 'name': 'matrix_pinky_home', 'column_net': 'GP4', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'row': 'home', 'bind': [10, 10, 10, 10]}}, 'matrix_pinky_top': {'x': 150.001808, 'y': -115.5609692, 'r': -15, 'meta': {'stagger': 19.3, 'spread': 24.8, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_top', 'name': 'matrix_pinky_top', 'column_net': 'GP4', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'row': 'top', 'bind': [10, 10, 10, 10]}}, 'matrix_pinky_num': {'x': 154.9970155, 'y': -96.9186008, 'r': -15, 'meta': {'stagger': 19.3, 'spread': 24.8, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_num', 'name': 'matrix_pinky_num', 'column_net': 'GP4', 'row_net': 'GP9', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'row': 'num', 'bind': [0, 0, 10, 0]}}, 'matrix_ring_mod': {'x': 153.6585537, 'y': -176.4832822, 'r': -15.5, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_mod', 'name': 'matrix_ring_mod', 'column_net': 'GP5', 'row_net': 'GP13', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'row': 'mod', 'bind': [10, 0, 0, 10]}}, 'matrix_ring_bottom': {'x': 158.8162543, 'y': -157.8852144, 'r': -15.5, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_bottom', 'name': 'matrix_ring_bottom', 'column_net': 'GP5', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'row': 'bottom', 'bind': [10, 10, 10, 10]}}, 'matrix_ring_home': {'x': 163.9739549, 'y': -139.2871467, 'r': -15.5, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_home', 'name': 'matrix_ring_home', 'column_net': 'GP5', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'row': 'home', 'bind': [10, 10, 10, 10]}}, 'matrix_ring_top': {'x': 169.1316555, 'y': -120.6890789, 'r': -15.5, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_top', 'name': 'matrix_ring_top', 'column_net': 'GP5', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'row': 'top', 'bind': [10, 10, 10, 10]}}, 'matrix_ring_num': {'x': 174.2893562, 'y': -102.0910112, 'r': -15.5, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_num', 'name': 'matrix_ring_num', 'column_net': 'GP5', 'row_net': 'GP9', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'row': 'num', 'bind': [0, 10, 10, 10]}}, 'matrix_middle_mod': {'x': 172.9247174, 'y': -179.2319067, 'r': -15.5, 'meta': {'stagger': 2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_mod', 'name': 'matrix_middle_mod', 'column_net': 'GP6', 'row_net': 'GP13', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'row': 'mod', 'bind': [10, 10, 0, 10]}}, 'matrix_middle_bottom': {'x': 178.082418, 'y': -160.6338389, 'r': -15.5, 'meta': {'stagger': 2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_bottom', 'name': 'matrix_middle_bottom', 'column_net': 'GP6', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'row': 'bottom', 'bind': [10, 10, 10, 10]}}, 'matrix_middle_home': {'x': 183.2401187, 'y': -142.0357712, 'r': -15.5, 'meta': {'stagger': 2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_home', 'name': 'matrix_middle_home', 'column_net': 'GP6', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'row': 'home', 'bind': [10, 10, 10, 10]}}, 'matrix_middle_top': {'x': 188.3978193, 'y': -123.4377034, 'r': -15.5, 'meta': {'stagger': 2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_top', 'name': 'matrix_middle_top', 'column_net': 'GP6', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'row': 'top', 'bind': [10, 10, 10, 10]}}, 'matrix_middle_num': {'x': 193.5555199, 'y': -104.8396357, 'r': -15.5, 'meta': {'stagger': 2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_num', 'name': 'matrix_middle_num', 'column_net': 'GP6', 'row_net': 'GP9', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'row': 'num', 'bind': [0, 0, 10, 0]}}, 'matrix_index_mod': {'x': 190.8546891, 'y': -186.7986835, 'r': -15.5, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_mod', 'name': 'matrix_index_mod', 'column_net': 'GP7', 'row_net': 'GP13', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'row': 'mod', 'bind': [10, 10, 0, 0]}}, 'matrix_index_bottom': {'x': 196.0123898, 'y': -168.2006157, 'r': -15.5, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_bottom', 'name': 'matrix_index_bottom', 'column_net': 'GP7', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'row': 'bottom', 'bind': [10, 10, 10, 10]}}, 'matrix_index_home': {'x': 201.1700904, 'y': -149.602548, 'r': -15.5, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_home', 'name': 'matrix_index_home', 'column_net': 'GP7', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'row': 'home', 'bind': [10, 10, 10, 10]}}, 'matrix_index_top': {'x': 206.327791, 'y': -131.0044803, 'r': -15.5, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_top', 'name': 'matrix_index_top', 'column_net': 'GP7', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'row': 'top', 'bind': [10, 10, 10, 10]}}, 'matrix_index_num': {'x': 211.4854916, 'y': -112.4064125, 'r': -15.5, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_num', 'name': 'matrix_index_num', 'column_net': 'GP7', 'row_net': 'GP9', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'row': 'num', 'bind': [0, 0, 10, 10]}}, 'matrix_inner_bottom': {'x': 214.1044619, 'y': -175.8131095, 'r': -16, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_bottom', 'name': 'matrix_inner_bottom', 'column_net': 'GP8', 'row_net': 'GP12', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}, 'row': 'bottom', 'bind': [10, 0, 10, 10]}}, 'matrix_inner_home': {'x': 219.4242628, 'y': -157.2607588, 'r': -16, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_home', 'name': 'matrix_inner_home', 'column_net': 'GP8', 'row_net': 'GP11', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}, 'row': 'home', 'bind': [10, 0, 10, 10]}}, 'matrix_inner_top': {'x': 224.7440637, 'y': -138.7084081, 'r': -16, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_top', 'name': 'matrix_inner_top', 'column_net': 'GP8', 'row_net': 'GP10', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}, 'row': 'top', 'bind': [10, 0, 10, 10]}}, 'matrix_inner_num': {'x': 230.0638647, 'y': -120.1560573, 'r': -16, 'meta': {'stagger': -2.5, 'spread': 19.3, 'splay': -0.5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_num', 'name': 'matrix_inner_num', 'column_net': 'GP8', 'row_net': 'GP9', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'outer': {'rows': {'mod': {'skip': True}, 'num': {'row_net': 'GP10'}, 'top': {'row_net': 'GP11'}, 'home': {'row_net': 'GP12'}, 'bottom': {'row_net': 'GP13'}}, 'key': {'width': '1.5kx', 'column_net': 'GP1'}, 'name': 'outer'}, 'pinky': {'key': {'stagger': '1kx', 'spread': '1kx + 5.5', 'column_net': 'GP4'}, 'rows': {}, 'name': 'pinky'}, 'ring': {'key': {'splay': -0.5, 'column_net': 'GP5'}, 'rows': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 2.5, 'column_net': 'GP6'}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': -2.5, 'column_net': 'GP7'}, 'rows': {}, 'name': 'index'}, 'inner': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}}, 'rows': {'mod': {'row_net': 'GP13'}, 'bottom': {'row_net': 'GP12'}, 'home': {'row_net': 'GP11'}, 'top': {'row_net': 'GP10'}, 'num': {'row_net': 'GP9'}}, 'name': 'matrix'}, 'col': {'rows': {'mod': {'skip': True}}, 'key': {'stagger': -2.5, 'splay': -0.5, 'column_net': 'GP8'}, 'name': 'inner'}, 'row': 'num', 'bind': [0, 0, 10, 10]}}, 'thumbs_first_cluster': {'x': 166.7439695, 'y': -203.1164747, 'r': -21, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -5, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'first_cluster', 'name': 'thumbs_first_cluster', 'row_net': 'GP14', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'first': {'key': {'splay': -5}, 'rows': {}, 'name': 'first'}, 'second': {'key': {'splay': -5, 'shift': [2.5, 0]}, 'rows': {}, 'name': 'second'}, 'layer': {'key': {'splay': -10, 'shift': [5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'layer'}, 'space': {'key': {'splay': -10, 'shift': [7.5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'space'}}, 'rows': {'cluster': {'row_net': 'GP14'}}, 'name': 'thumbs'}, 'col': {'key': {'splay': -5}, 'rows': {}, 'name': 'first'}, 'row': 'cluster', 'bind': [0, 0, 0, 0]}}, 'thumbs_second_cluster': {'x': 187.0090569, 'y': -211.128904, 'r': -26, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -5, 'origin': [0, 0], 'orient': 0, 'shift': [2.5, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'second_cluster', 'name': 'thumbs_second_cluster', 'row_net': 'GP14', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'first': {'key': {'splay': -5}, 'rows': {}, 'name': 'first'}, 'second': {'key': {'splay': -5, 'shift': [2.5, 0]}, 'rows': {}, 'name': 'second'}, 'layer': {'key': {'splay': -10, 'shift': [5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'layer'}, 'space': {'key': {'splay': -10, 'shift': [7.5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'space'}}, 'rows': {'cluster': {'row_net': 'GP14'}}, 'name': 'thumbs'}, 'col': {'key': {'splay': -5, 'shift': [2.5, 0]}, 'rows': {}, 'name': 'second'}, 'row': 'cluster', 'bind': [0, 0, 0, 0]}}, 'thumbs_layer_cluster': {'x': 206.1538817, 'y': -221.4324655, 'r': -36, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -10, 'origin': [0, 0], 'orient': 0, 'shift': [5, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'layer_cluster', 'name': 'thumbs_layer_cluster', 'column_net': 'GP8', 'row_net': 'GP14', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'first': {'key': {'splay': -5}, 'rows': {}, 'name': 'first'}, 'second': {'key': {'splay': -5, 'shift': [2.5, 0]}, 'rows': {}, 'name': 'second'}, 'layer': {'key': {'splay': -10, 'shift': [5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'layer'}, 'space': {'key': {'splay': -10, 'shift': [7.5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'space'}}, 'rows': {'cluster': {'row_net': 'GP14'}}, 'name': 'thumbs'}, 'col': {'key': {'splay': -10, 'shift': [5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'layer'}, 'row': 'cluster', 'bind': [0, 0, 0, 0]}}, 'thumbs_space_cluster': {'x': 222.9327626, 'y': -235.2328431, 'r': -46, 'meta': {'stagger': 0, 'spread': 19.3, 'splay': -10, 'origin': [0, 0], 'orient': 0, 'shift': [7.5, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 19.3, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'space_cluster', 'name': 'thumbs_space_cluster', 'column_net': 'GP8', 'row_net': 'GP14', 'zone': {'key': {'padding': '1ky', 'spread': '1kx'}, 'columns': {'first': {'key': {'splay': -5}, 'rows': {}, 'name': 'first'}, 'second': {'key': {'splay': -5, 'shift': [2.5, 0]}, 'rows': {}, 'name': 'second'}, 'layer': {'key': {'splay': -10, 'shift': [5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'layer'}, 'space': {'key': {'splay': -10, 'shift': [7.5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'space'}}, 'rows': {'cluster': {'row_net': 'GP14'}}, 'name': 'thumbs'}, 'col': {'key': {'splay': -10, 'shift': [7.5, 0], 'column_net': 'GP8'}, 'rows': {}, 'name': 'space'}, 'row': 'cluster', 'bind': [0, 0, 0, 0]}}}
+[key_placer.py:661]: Layout offset: (37510718, 37686822)
+[board_modifier.py:85]: Setting SW1 footprint position: (190500000, 133350000)
+[board_modifier.py:85]: Setting SW2 footprint position: (209542440, 138455410)
+[board_modifier.py:85]: Setting SW3 footprint position: (228559042, 141168431)
+[board_modifier.py:85]: Setting SW4 footprint position: (161924834, 145415319)
+[board_modifier.py:85]: Setting SW5 footprint position: (246256760, 148637192)
+[board_modifier.py:85]: Setting SW6 footprint position: (185569497, 151750887)
+[board_modifier.py:85]: Setting SW7 footprint position: (264594480, 156286453)
+[board_modifier.py:85]: Setting SW8 footprint position: (204451548, 156812570)
+[board_modifier.py:85]: Setting SW9 footprint position: (223468151, 159525591)
+[board_modifier.py:85]: Setting SW10 footprint position: (156994331, 163816206)
+[board_modifier.py:85]: Setting SW11 footprint position: (241165869, 166994353)
+[board_modifier.py:85]: Setting SW12 footprint position: (180638994, 170151774)
+[board_modifier.py:85]: Setting SW13 footprint position: (259343589, 174598489)
+[board_modifier.py:85]: Setting SW14 footprint position: (199360657, 175169731)
+[board_modifier.py:85]: Setting SW15 footprint position: (218377260, 177882751)
+[board_modifier.py:85]: Setting SW16 footprint position: (152063828, 182217093)
+[board_modifier.py:85]: Setting SW17 footprint position: (236074978, 185351513)
+[board_modifier.py:85]: Setting SW18 footprint position: (175708491, 188552661)
+[board_modifier.py:85]: Setting SW19 footprint position: (254092697, 192910524)
+[board_modifier.py:85]: Setting SW20 footprint position: (194269766, 193526891)
+[board_modifier.py:85]: Setting SW21 footprint position: (213286368, 196239911)
+[board_modifier.py:85]: Setting SW22 footprint position: (147133325, 200617980)
+[board_modifier.py:85]: Setting SW23 footprint position: (230984087, 203708673)
+[board_modifier.py:85]: Setting SW24 footprint position: (170777988, 206953548)
+[board_modifier.py:85]: Setting SW25 footprint position: (248841806, 211222559)
+[board_modifier.py:85]: Setting SW26 footprint position: (189178875, 211884051)
+[board_modifier.py:85]: Setting SW27 footprint position: (208195477, 214597071)
+[board_modifier.py:85]: Setting SW28 footprint position: (225893196, 222065833)
+[board_modifier.py:85]: Setting SW29 footprint position: (202094791, 238172254)
+[board_modifier.py:85]: Setting SW30 footprint position: (222097377, 246080895)
+[board_modifier.py:85]: Setting SW31 footprint position: (240994212, 256250991)
+[board_modifier.py:85]: Setting SW32 footprint position: (257555750, 269872607)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=5.0, y=5.0, orientation=180.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (190500000, 133350000)
+[board_modifier.py:85]: Setting D1 footprint position: (194035533, 139473724)
+[board_modifier.py:98]: Getting D1 footprint position: (194035533, 139473724)
+[board_modifier.py:98]: Getting SW2 footprint position: (209542440, 138455410)
+[board_modifier.py:85]: Setting D2 footprint position: (213024400, 144609754)
+[board_modifier.py:98]: Getting D2 footprint position: (213024400, 144609754)
+[board_modifier.py:98]: Getting SW3 footprint position: (228559042, 141168431)
+[board_modifier.py:85]: Setting D3 footprint position: (232041002, 147322775)
+[board_modifier.py:98]: Getting D3 footprint position: (232041002, 147322775)
+[board_modifier.py:98]: Getting SW4 footprint position: (161924834, 145415319)
+[board_modifier.py:85]: Setting D4 footprint position: (165460367, 151539043)
+[board_modifier.py:98]: Getting D4 footprint position: (165460367, 151539043)
+[board_modifier.py:98]: Getting SW5 footprint position: (246256760, 148637192)
+[board_modifier.py:85]: Setting D5 footprint position: (249738720, 154791536)
+[board_modifier.py:98]: Getting D5 footprint position: (249738720, 154791536)
+[board_modifier.py:98]: Getting SW6 footprint position: (185569497, 151750887)
+[board_modifier.py:85]: Setting D6 footprint position: (189105030, 157874611)
+[board_modifier.py:98]: Getting D6 footprint position: (189105030, 157874611)
+[board_modifier.py:98]: Getting SW7 footprint position: (264594480, 156286453)
+[board_modifier.py:85]: Setting D7 footprint position: (268022601, 162470948)
+[board_modifier.py:98]: Getting D7 footprint position: (268022601, 162470948)
+[board_modifier.py:98]: Getting SW8 footprint position: (204451548, 156812570)
+[board_modifier.py:85]: Setting D8 footprint position: (207933508, 162966914)
+[board_modifier.py:98]: Getting D8 footprint position: (207933508, 162966914)
+[board_modifier.py:98]: Getting SW9 footprint position: (223468151, 159525591)
+[board_modifier.py:85]: Setting D9 footprint position: (226950111, 165679935)
+[board_modifier.py:98]: Getting D9 footprint position: (226950111, 165679935)
+[board_modifier.py:98]: Getting SW10 footprint position: (156994331, 163816206)
+[board_modifier.py:85]: Setting D10 footprint position: (160529864, 169939930)
+[board_modifier.py:98]: Getting D10 footprint position: (160529864, 169939930)
+[board_modifier.py:98]: Getting SW11 footprint position: (241165869, 166994353)
+[board_modifier.py:85]: Setting D11 footprint position: (244647829, 173148697)
+[board_modifier.py:98]: Getting D11 footprint position: (244647829, 173148697)
+[board_modifier.py:98]: Getting SW12 footprint position: (180638994, 170151774)
+[board_modifier.py:85]: Setting D12 footprint position: (184174527, 176275498)
+[board_modifier.py:98]: Getting D12 footprint position: (184174527, 176275498)
+[board_modifier.py:98]: Getting SW13 footprint position: (259343589, 174598489)
+[board_modifier.py:85]: Setting D13 footprint position: (262771710, 180782984)
+[board_modifier.py:98]: Getting D13 footprint position: (262771710, 180782984)
+[board_modifier.py:98]: Getting SW14 footprint position: (199360657, 175169731)
+[board_modifier.py:85]: Setting D14 footprint position: (202842617, 181324075)
+[board_modifier.py:98]: Getting D14 footprint position: (202842617, 181324075)
+[board_modifier.py:98]: Getting SW15 footprint position: (218377260, 177882751)
+[board_modifier.py:85]: Setting D15 footprint position: (221859220, 184037095)
+[board_modifier.py:98]: Getting D15 footprint position: (221859220, 184037095)
+[board_modifier.py:98]: Getting SW16 footprint position: (152063828, 182217093)
+[board_modifier.py:85]: Setting D16 footprint position: (155599361, 188340817)
+[board_modifier.py:98]: Getting D16 footprint position: (155599361, 188340817)
+[board_modifier.py:98]: Getting SW17 footprint position: (236074978, 185351513)
+[board_modifier.py:85]: Setting D17 footprint position: (239556938, 191505857)
+[board_modifier.py:98]: Getting D17 footprint position: (239556938, 191505857)
+[board_modifier.py:98]: Getting SW18 footprint position: (175708491, 188552661)
+[board_modifier.py:85]: Setting D18 footprint position: (179244024, 194676385)
+[board_modifier.py:98]: Getting D18 footprint position: (179244024, 194676385)
+[board_modifier.py:98]: Getting SW19 footprint position: (254092697, 192910524)
+[board_modifier.py:85]: Setting D19 footprint position: (257520818, 199095019)
+[board_modifier.py:98]: Getting D19 footprint position: (257520818, 199095019)
+[board_modifier.py:98]: Getting SW20 footprint position: (194269766, 193526891)
+[board_modifier.py:85]: Setting D20 footprint position: (197751726, 199681235)
+[board_modifier.py:98]: Getting D20 footprint position: (197751726, 199681235)
+[board_modifier.py:98]: Getting SW21 footprint position: (213286368, 196239911)
+[board_modifier.py:85]: Setting D21 footprint position: (216768328, 202394255)
+[board_modifier.py:98]: Getting D21 footprint position: (216768328, 202394255)
+[board_modifier.py:98]: Getting SW22 footprint position: (147133325, 200617980)
+[board_modifier.py:85]: Setting D22 footprint position: (150668858, 206741704)
+[board_modifier.py:98]: Getting D22 footprint position: (150668858, 206741704)
+[board_modifier.py:98]: Getting SW23 footprint position: (230984087, 203708673)
+[board_modifier.py:85]: Setting D23 footprint position: (234466047, 209863017)
+[board_modifier.py:98]: Getting D23 footprint position: (234466047, 209863017)
+[board_modifier.py:98]: Getting SW24 footprint position: (170777988, 206953548)
+[board_modifier.py:85]: Setting D24 footprint position: (174313521, 213077272)
+[board_modifier.py:98]: Getting D24 footprint position: (174313521, 213077272)
+[board_modifier.py:98]: Getting SW25 footprint position: (248841806, 211222559)
+[board_modifier.py:85]: Setting D25 footprint position: (252269927, 217407054)
+[board_modifier.py:98]: Getting D25 footprint position: (252269927, 217407054)
+[board_modifier.py:98]: Getting SW26 footprint position: (189178875, 211884051)
+[board_modifier.py:85]: Setting D26 footprint position: (192660835, 218038395)
+[board_modifier.py:98]: Getting D26 footprint position: (192660835, 218038395)
+[board_modifier.py:98]: Getting SW27 footprint position: (208195477, 214597071)
+[board_modifier.py:85]: Setting D27 footprint position: (211677437, 220751415)
+[board_modifier.py:98]: Getting D27 footprint position: (211677437, 220751415)
+[board_modifier.py:98]: Getting SW28 footprint position: (225893196, 222065833)
+[board_modifier.py:85]: Setting D28 footprint position: (229375156, 228220177)
+[board_modifier.py:98]: Getting D28 footprint position: (229375156, 228220177)
+[board_modifier.py:98]: Getting SW29 footprint position: (202094791, 238172254)
+[board_modifier.py:85]: Setting D29 footprint position: (204970853, 244631995)
+[board_modifier.py:98]: Getting D29 footprint position: (204970853, 244631995)
+[board_modifier.py:98]: Getting SW30 footprint position: (222097377, 246080895)
+[board_modifier.py:85]: Setting D30 footprint position: (224399491, 252766720)
+[board_modifier.py:98]: Getting D30 footprint position: (224399491, 252766720)
+[board_modifier.py:98]: Getting SW31 footprint position: (240994212, 256250991)
+[board_modifier.py:85]: Setting D31 footprint position: (242100370, 263235002)
+[board_modifier.py:98]: Getting D31 footprint position: (242100370, 263235002)
+[board_modifier.py:98]: Getting SW32 footprint position: (257555750, 269872607)
+[board_modifier.py:85]: Setting D32 footprint position: (257432343, 276942597)
+[board_modifier.py:98]: Getting D32 footprint position: (257432343, 276942597)
+[key_placer.py:746]: Optimizing orientation of SW1 diodes
+[board_modifier.py:98]: Getting D1 footprint position: (194035533, 139473724)
+[key_placer.py:746]: Optimizing orientation of SW2 diodes
+[board_modifier.py:98]: Getting D2 footprint position: (213024400, 144609754)
+[key_placer.py:746]: Optimizing orientation of SW3 diodes
+[board_modifier.py:98]: Getting D3 footprint position: (232041002, 147322775)
+[key_placer.py:746]: Optimizing orientation of SW4 diodes
+[board_modifier.py:98]: Getting D4 footprint position: (165460367, 151539043)
+[key_placer.py:746]: Optimizing orientation of SW5 diodes
+[board_modifier.py:98]: Getting D5 footprint position: (249738720, 154791536)
+[key_placer.py:746]: Optimizing orientation of SW6 diodes
+[board_modifier.py:98]: Getting D6 footprint position: (189105030, 157874611)
+[key_placer.py:746]: Optimizing orientation of SW7 diodes
+[board_modifier.py:98]: Getting D7 footprint position: (268022601, 162470948)
+[key_placer.py:746]: Optimizing orientation of SW8 diodes
+[board_modifier.py:98]: Getting D8 footprint position: (207933508, 162966914)
+[key_placer.py:746]: Optimizing orientation of SW9 diodes
+[board_modifier.py:98]: Getting D9 footprint position: (226950111, 165679935)
+[key_placer.py:746]: Optimizing orientation of SW10 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (160529864, 169939930)
+[key_placer.py:746]: Optimizing orientation of SW11 diodes
+[board_modifier.py:98]: Getting D11 footprint position: (244647829, 173148697)
+[key_placer.py:746]: Optimizing orientation of SW12 diodes
+[board_modifier.py:98]: Getting D12 footprint position: (184174527, 176275498)
+[key_placer.py:746]: Optimizing orientation of SW13 diodes
+[board_modifier.py:98]: Getting D13 footprint position: (262771710, 180782984)
+[key_placer.py:746]: Optimizing orientation of SW14 diodes
+[board_modifier.py:98]: Getting D14 footprint position: (202842617, 181324075)
+[key_placer.py:746]: Optimizing orientation of SW15 diodes
+[board_modifier.py:98]: Getting D15 footprint position: (221859220, 184037095)
+[key_placer.py:746]: Optimizing orientation of SW16 diodes
+[board_modifier.py:98]: Getting D16 footprint position: (155599361, 188340817)
+[key_placer.py:746]: Optimizing orientation of SW17 diodes
+[board_modifier.py:98]: Getting D17 footprint position: (239556938, 191505857)
+[key_placer.py:746]: Optimizing orientation of SW18 diodes
+[board_modifier.py:98]: Getting D18 footprint position: (179244024, 194676385)
+[key_placer.py:746]: Optimizing orientation of SW19 diodes
+[board_modifier.py:98]: Getting D19 footprint position: (257520818, 199095019)
+[key_placer.py:746]: Optimizing orientation of SW20 diodes
+[board_modifier.py:98]: Getting D20 footprint position: (197751726, 199681235)
+[key_placer.py:746]: Optimizing orientation of SW21 diodes
+[board_modifier.py:98]: Getting D21 footprint position: (216768328, 202394255)
+[key_placer.py:746]: Optimizing orientation of SW22 diodes
+[board_modifier.py:98]: Getting D22 footprint position: (150668858, 206741704)
+[key_placer.py:746]: Optimizing orientation of SW23 diodes
+[board_modifier.py:98]: Getting D23 footprint position: (234466047, 209863017)
+[key_placer.py:746]: Optimizing orientation of SW24 diodes
+[board_modifier.py:98]: Getting D24 footprint position: (174313521, 213077272)
+[key_placer.py:746]: Optimizing orientation of SW25 diodes
+[board_modifier.py:98]: Getting D25 footprint position: (252269927, 217407054)
+[key_placer.py:746]: Optimizing orientation of SW26 diodes
+[board_modifier.py:98]: Getting D26 footprint position: (192660835, 218038395)
+[key_placer.py:746]: Optimizing orientation of SW27 diodes
+[board_modifier.py:98]: Getting D27 footprint position: (211677437, 220751415)
+[key_placer.py:746]: Optimizing orientation of SW28 diodes
+[board_modifier.py:98]: Getting D28 footprint position: (229375156, 228220177)
+[key_placer.py:746]: Optimizing orientation of SW29 diodes
+[board_modifier.py:98]: Getting D29 footprint position: (204970853, 244631995)
+[key_placer.py:746]: Optimizing orientation of SW30 diodes
+[board_modifier.py:98]: Getting D30 footprint position: (224399491, 252766720)
+[key_placer.py:746]: Optimizing orientation of SW31 diodes
+[board_modifier.py:98]: Getting D31 footprint position: (242100370, 263235002)
+[key_placer.py:746]: Optimizing orientation of SW32 diodes
+[board_modifier.py:98]: Getting D32 footprint position: (257432343, 276942597)
+[key_placer.py:774]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (225893196, 222065833)
+[board_modifier.py:75]: Searching for optional LED28 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED28 footprint position: (225893196, 222065833)
+[board_modifier.py:98]: Getting LED28 footprint position: (225893196, 222065833)
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (161924834, 145415319)
+[board_modifier.py:75]: Searching for optional LED4 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED4 footprint position: (161924834, 145415319)
+[board_modifier.py:98]: Getting LED4 footprint position: (161924834, 145415319)
+[key_placer.py:774]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (170777988, 206953548)
+[board_modifier.py:75]: Searching for optional LED24 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED24 footprint position: (170777988, 206953548)
+[board_modifier.py:98]: Getting LED24 footprint position: (170777988, 206953548)
+[key_placer.py:774]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (257555750, 269872607)
+[board_modifier.py:75]: Searching for optional LED32 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED32 footprint position: (257555750, 269872607)
+[board_modifier.py:98]: Getting LED32 footprint position: (257555750, 269872607)
+[key_placer.py:774]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (222097377, 246080895)
+[board_modifier.py:75]: Searching for optional LED30 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED30 footprint position: (222097377, 246080895)
+[board_modifier.py:98]: Getting LED30 footprint position: (222097377, 246080895)
+[key_placer.py:774]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (230984087, 203708673)
+[board_modifier.py:75]: Searching for optional LED23 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED23 footprint position: (230984087, 203708673)
+[board_modifier.py:98]: Getting LED23 footprint position: (230984087, 203708673)
+[key_placer.py:774]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (147133325, 200617980)
+[board_modifier.py:75]: Searching for optional LED22 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED22 footprint position: (147133325, 200617980)
+[board_modifier.py:98]: Getting LED22 footprint position: (147133325, 200617980)
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (175708491, 188552661)
+[board_modifier.py:75]: Searching for optional LED18 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED18 footprint position: (175708491, 188552661)
+[board_modifier.py:98]: Getting LED18 footprint position: (175708491, 188552661)
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (199360657, 175169731)
+[board_modifier.py:75]: Searching for optional LED14 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED14 footprint position: (199360657, 175169731)
+[board_modifier.py:98]: Getting LED14 footprint position: (199360657, 175169731)
+[key_placer.py:774]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (208195477, 214597071)
+[board_modifier.py:75]: Searching for optional LED27 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED27 footprint position: (208195477, 214597071)
+[board_modifier.py:98]: Getting LED27 footprint position: (208195477, 214597071)
+[key_placer.py:774]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (223468151, 159525591)
+[board_modifier.py:75]: Searching for optional LED9 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED9 footprint position: (223468151, 159525591)
+[board_modifier.py:98]: Getting LED9 footprint position: (223468151, 159525591)
+[key_placer.py:774]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (240994212, 256250991)
+[board_modifier.py:75]: Searching for optional LED31 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED31 footprint position: (240994212, 256250991)
+[board_modifier.py:98]: Getting LED31 footprint position: (240994212, 256250991)
+[key_placer.py:774]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (189178875, 211884051)
+[board_modifier.py:75]: Searching for optional LED26 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED26 footprint position: (189178875, 211884051)
+[board_modifier.py:98]: Getting LED26 footprint position: (189178875, 211884051)
+[key_placer.py:774]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (180638994, 170151774)
+[board_modifier.py:75]: Searching for optional LED12 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED12 footprint position: (180638994, 170151774)
+[board_modifier.py:98]: Getting LED12 footprint position: (180638994, 170151774)
+[key_placer.py:774]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (194269766, 193526891)
+[board_modifier.py:75]: Searching for optional LED20 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED20 footprint position: (194269766, 193526891)
+[board_modifier.py:98]: Getting LED20 footprint position: (194269766, 193526891)
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (152063828, 182217093)
+[board_modifier.py:75]: Searching for optional LED16 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED16 footprint position: (152063828, 182217093)
+[board_modifier.py:98]: Getting LED16 footprint position: (152063828, 182217093)
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (185569497, 151750887)
+[board_modifier.py:75]: Searching for optional LED6 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED6 footprint position: (185569497, 151750887)
+[board_modifier.py:98]: Getting LED6 footprint position: (185569497, 151750887)
+[key_placer.py:774]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (209542440, 138455410)
+[board_modifier.py:75]: Searching for optional LED2 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED2 footprint position: (209542440, 138455410)
+[board_modifier.py:98]: Getting LED2 footprint position: (209542440, 138455410)
+[key_placer.py:774]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (248841806, 211222559)
+[board_modifier.py:75]: Searching for optional LED25 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED25 footprint position: (248841806, 211222559)
+[board_modifier.py:98]: Getting LED25 footprint position: (248841806, 211222559)
+[key_placer.py:774]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (156994331, 163816206)
+[board_modifier.py:75]: Searching for optional LED10 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED10 footprint position: (156994331, 163816206)
+[board_modifier.py:98]: Getting LED10 footprint position: (156994331, 163816206)
+[key_placer.py:774]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (246256760, 148637192)
+[board_modifier.py:75]: Searching for optional LED5 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED5 footprint position: (246256760, 148637192)
+[board_modifier.py:98]: Getting LED5 footprint position: (246256760, 148637192)
+[key_placer.py:774]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (259343589, 174598489)
+[board_modifier.py:75]: Searching for optional LED13 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED13 footprint position: (259343589, 174598489)
+[board_modifier.py:98]: Getting LED13 footprint position: (259343589, 174598489)
+[key_placer.py:774]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (241165869, 166994353)
+[board_modifier.py:75]: Searching for optional LED11 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED11 footprint position: (241165869, 166994353)
+[board_modifier.py:98]: Getting LED11 footprint position: (241165869, 166994353)
+[key_placer.py:774]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (228559042, 141168431)
+[board_modifier.py:75]: Searching for optional LED3 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED3 footprint position: (228559042, 141168431)
+[board_modifier.py:98]: Getting LED3 footprint position: (228559042, 141168431)
+[key_placer.py:774]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (254092697, 192910524)
+[board_modifier.py:75]: Searching for optional LED19 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED19 footprint position: (254092697, 192910524)
+[board_modifier.py:98]: Getting LED19 footprint position: (254092697, 192910524)
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (236074978, 185351513)
+[board_modifier.py:75]: Searching for optional LED17 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED17 footprint position: (236074978, 185351513)
+[board_modifier.py:98]: Getting LED17 footprint position: (236074978, 185351513)
+[key_placer.py:774]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (264594480, 156286453)
+[board_modifier.py:75]: Searching for optional LED7 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED7 footprint position: (264594480, 156286453)
+[board_modifier.py:98]: Getting LED7 footprint position: (264594480, 156286453)
+[key_placer.py:774]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (218377260, 177882751)
+[board_modifier.py:75]: Searching for optional LED15 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED15 footprint position: (218377260, 177882751)
+[board_modifier.py:98]: Getting LED15 footprint position: (218377260, 177882751)
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (190500000, 133350000)
+[board_modifier.py:75]: Searching for optional LED1 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED1 footprint position: (190500000, 133350000)
+[board_modifier.py:98]: Getting LED1 footprint position: (190500000, 133350000)
+[key_placer.py:774]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (213286368, 196239911)
+[board_modifier.py:75]: Searching for optional LED21 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED21 footprint position: (213286368, 196239911)
+[board_modifier.py:98]: Getting LED21 footprint position: (213286368, 196239911)
+[key_placer.py:774]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (202094791, 238172254)
+[board_modifier.py:75]: Searching for optional LED29 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED29 footprint position: (202094791, 238172254)
+[board_modifier.py:98]: Getting LED29 footprint position: (202094791, 238172254)
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (204451548, 156812570)
+[board_modifier.py:75]: Searching for optional LED8 footprint in C:\Users\lboog\GitHub\hackpad-v2\v2\v2.kicad_pcb
+[board_modifier.py:85]: Setting LED8 footprint position: (204451548, 156812570)
+[board_modifier.py:98]: Getting LED8 footprint position: (204451548, 156812570)
+[key_placer.py:423]: Routing SW28 with D28
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW28:1' at (219855397, 219600644) with pad 'D28:2' at (219584671, 225505035) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(219855397, 219600644), (218667522, 223883980)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(218667522, 223883980), (219584671, 225505035)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW4 with D4
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW4:1' at (155865754, 143002913) with pad 'D4:2' at (155646562, 148909442) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(155865754, 143002913), (154715302, 147296453)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(154715302, 147296453), (155646562, 148909442)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW24 with D24
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW24:1' at (164718907, 204541141) with pad 'D24:2' at (164499716, 210447671) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(164718907, 204541141), (163568456, 208834681)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(163568456, 208834681), (164499716, 210447671)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW32 with D32
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW32:1' at (253604585, 264684114) with pad 'D32:2' at (250374615, 269634105) using coordinate system rotated by 46.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(253604585, 264684114), (250407120, 267771868)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(250407120, 267771868), (250374615, 269634105)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW30 with D30
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW30:1' at (216609927, 242556684) with pad 'D30:2' at (215267742, 248312870) using coordinate system rotated by 26.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(216609927, 242556684), (214661365, 246551825)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(214661365, 246551825), (215267742, 248312870)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW23 with D23
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW23:1' at (224946288, 201243485) with pad 'D23:2' at (224675562, 207147875) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(224946288, 201243485), (223758413, 205526820)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(223758413, 205526820), (224675562, 207147875)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW22 with D22
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW22:1' at (141074245, 198205574) with pad 'D22:2' at (140855053, 204112103) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(141074245, 198205574), (139923794, 202499114)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(139923794, 202499114), (140855053, 204112103)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW18 with D18
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW18:1' at (169649411, 186140255) with pad 'D18:2' at (169430219, 192046784) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(169649411, 186140255), (168498959, 190433796)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(168498959, 190433796), (169430219, 192046784)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW14 with D14
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW14:1' at (193322858, 172704543) with pad 'D14:2' at (193052131, 178608932) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(193322858, 172704543), (192134982, 176987878)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(192134982, 176987878), (193052131, 178608932)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW27 with D27
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW27:1' at (202157678, 212131883) with pad 'D27:2' at (201886952, 218036273) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(202157678, 212131883), (200969803, 216415218)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(200969803, 216415218), (201886952, 218036273)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW9 with D9
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW9:1' at (217430353, 157060402) with pad 'D9:2' at (217159627, 162964793) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(217430353, 157060402), (216242478, 161343738)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(216242478, 161343738), (217159627, 162964793)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW31 with D31
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW31:1' at (236202102, 251827434) with pad 'D31:2' at (233880757, 257263104) using coordinate system rotated by 36.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(236202102, 251827434), (233589394, 255423516)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(233589394, 255423516), (233880757, 257263104)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW26 with D26
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW26:1' at (183141076, 209418863) with pad 'D26:2' at (182870350, 215323253) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(183141076, 209418863), (181953201, 213702198)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(181953201, 213702198), (182870350, 215323253)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW12 with D12
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW12:1' at (174579914, 167739368) with pad 'D12:2' at (174360722, 173645897) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(174579914, 167739368), (173429462, 172032908)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(173429462, 172032908), (174360722, 173645897)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW20 with D20
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW20:1' at (188231967, 191061703) with pad 'D20:2' at (187961241, 196966093) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(188231967, 191061703), (187044092, 195345037)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(187044092, 195345037), (187961241, 196966093)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW16 with D16
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW16:1' at (146004747, 179804686) with pad 'D16:2' at (145785556, 185711216) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(146004747, 179804686), (144854296, 184098226)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(144854296, 184098226), (145785556, 185711216)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW6 with D6
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW6:1' at (179510416, 149338480) with pad 'D6:2' at (179291225, 155245010) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(179510416, 149338480), (178359964, 153632019)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(178359964, 153632019), (179291225, 155245010)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW2 with D2
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW2:1' at (203504641, 135990222) with pad 'D2:2' at (203233915, 141894612) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(203504641, 135990222), (202316766, 140273556)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(202316766, 140273556), (203233915, 141894612)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW25 with D25
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW25:1' at (242825752, 208704775) with pad 'D25:2' at (242503509, 214606579) using coordinate system rotated by 16.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(242825752, 208704775), (241600542, 212977585)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(241600542, 212977585), (242503509, 214606579)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW10 with D10
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW10:1' at (150935251, 161403800) with pad 'D10:2' at (150716059, 167310329) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(150935251, 161403800), (149784799, 165697340)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[board_modifier.py:445]: Adding track segment (F.Cu): [(150935251, 161403800), (151866509, 163016787)]
+[board_modifier.py:455]: Could not add track segment due to detected collision
+[key_placer.py:423]: Routing SW5 with D5
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW5:1' at (240218961, 146172004) with pad 'D5:2' at (239948235, 152076394) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(240218961, 146172004), (239031086, 150455338)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(239031086, 150455338), (239948235, 152076394)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW13 with D13
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW13:1' at (253327533, 172080703) with pad 'D13:2' at (253005291, 177982508) using coordinate system rotated by 16.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(253327533, 172080703), (252102323, 176353512)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(252102323, 176353512), (253005291, 177982508)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW11 with D11
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW11:1' at (235128071, 164529164) with pad 'D11:2' at (234857345, 170433555) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(235128071, 164529164), (233940196, 168812500)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(233940196, 168812500), (234857345, 170433555)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW3 with D3
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW3:1' at (222521244, 138703242) with pad 'D3:2' at (222250518, 144607633) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(222521244, 138703242), (221333369, 142986578)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(221333369, 142986578), (222250518, 144607633)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW19 with D19
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW19:1' at (248076643, 190392740) with pad 'D19:2' at (247754400, 196294544) using coordinate system rotated by 16.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(248076643, 190392740), (246851433, 194665549)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(246851433, 194665549), (247754400, 196294544)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW17 with D17
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW17:1' at (230037180, 182886324) with pad 'D17:2' at (229766454, 188790715) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(230037180, 182886324), (228849305, 187169660)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(228849305, 187169660), (229766454, 188790715)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW7 with D7
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW7:1' at (258578424, 153768667) with pad 'D7:2' at (258256182, 159670472) using coordinate system rotated by 16.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(258578424, 153768667), (257353215, 158041476)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(257353215, 158041476), (258256182, 159670472)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW15 with D15
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW15:1' at (212339461, 175417563) with pad 'D15:2' at (212068735, 181321953) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(212339461, 175417563), (211151586, 179700898)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(211151586, 179700898), (212068735, 181321953)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW1 with D1
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW1:1' at (184440920, 130937594) with pad 'D1:2' at (184221728, 136844123) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(184440920, 130937594), (183290469, 135231134)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(183290469, 135231134), (184221728, 136844123)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW21 with D21
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW21:1' at (207248569, 193774723) with pad 'D21:2' at (206977843, 199679113) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(207248569, 193774723), (206060694, 198058058)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(206060694, 198058058), (206977843, 199679113)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW29 with D29
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW29:1' at (196321068, 235139717) with pad 'D29:2' at (195485676, 240990977) using coordinate system rotated by 21.0 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(196321068, 235139717), (194728121, 239289482)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(194728121, 239289482), (195485676, 240990977)]
+[board_modifier.py:450]: Track added
+[key_placer.py:423]: Routing SW8 with D8
+[key_placer.py:425]: Using internal autorouter method
+[board_modifier.py:522]: Routing at F.Cu layer
+[board_modifier.py:539]: Netclass: Default, track width: 200000
+[board_modifier.py:601]: Routing pad 'SW8:1' at (198413749, 154347382) with pad 'D8:2' at (198143023, 160251772) using coordinate system rotated by 15.5 degree(s)
+[board_modifier.py:445]: Adding track segment (F.Cu): [(198413749, 154347382), (197225874, 158630716)]
+[board_modifier.py:450]: Track added
+[board_modifier.py:445]: Adding track segment (F.Cu): [(197225874, 158630716), (198143023, 160251772)]
+[board_modifier.py:450]: Track added
+[key_placer.py:457]: Removing dangling tracks
+[key_placer.py:469]: Removing 921e1b9d-1a47-4ebc-92b5-90e13bcd86f3
+[key_placer.py:469]: Removing 16ca6558-6160-41bc-8f7a-5e0273623f4d
+[key_placer.py:469]: Removing 553812cc-ee84-4cf9-9e7f-d7a7ccfc99ea
+[key_placer.py:469]: Removing 762cde51-819a-4def-928b-c9f34a8849ba
+[key_placer.py:469]: Removing e0823475-ff3f-4142-83ef-d0b6e5f66fb1
+[key_placer.py:469]: Removing 42b68a89-b4a6-4fad-b986-5be503892d6a
+[key_placer.py:469]: Removing 1ab2c119-26bb-4915-baae-a89aee8b291b
+[key_placer.py:469]: Removing 1061d0e4-74dc-44c0-8c2b-5f4e6fbcc39c
+[key_placer.py:469]: Removing b4676a3b-2fde-4c82-9a67-b1b3f40a8e4c
+[key_placer.py:469]: Removing 70b43bad-909d-452d-bbe3-1cd29932f2be
+[key_placer.py:469]: Removing d492879c-5f9f-4a33-bbfe-fb5defcdecf5
+[key_placer.py:469]: Removing ccb48236-7c0b-4b04-adf7-e60230aef445
+[key_placer.py:469]: Removing 27b11836-8a2c-4da2-ad3e-c8936396fc3d
+[key_placer.py:469]: Removing 695f395c-0da1-4007-b7cc-6aa6d176caf2
+[key_placer.py:469]: Removing 208d5f7a-3570-4346-8c23-0f0ef2b25976
+[key_placer.py:469]: Removing 5aab110e-f4f7-41b9-b037-c86a864a1f47
+[key_placer.py:469]: Removing a7cdfeda-c80e-4d51-b7f5-02f60918c88c
+[key_placer.py:469]: Removing 2e2800e6-7bec-4238-8228-bf872527da8d
+[key_placer.py:469]: Removing a5e73233-88f3-48d7-953f-7b92fc52da44
+[key_placer.py:469]: Removing 477bf6b7-8a89-4528-9bd0-097ac8f6cf9e
+[key_placer.py:469]: Removing 9206902a-072e-4f9d-bea4-18680ade5d99
+[key_placer.py:469]: Removing 859322c4-04d8-450a-8f60-e22c622492e7
+[key_placer.py:469]: Removing bfff4818-9270-4e32-a9fa-a90b5874c4ac
+[key_placer.py:469]: Removing f5cb77f0-0802-4cd7-8db4-af6abb76720d
+[key_placer.py:469]: Removing 34a97583-aefb-4967-b09c-39c8174f24fb
+[key_placer.py:469]: Removing f2c53c28-d04c-49e0-914c-f2d229bcf33b
+[key_placer.py:469]: Removing 4669adb3-bf84-4ea3-975c-3ab37ba47527
+[key_placer.py:469]: Removing 8bcf9933-6041-4562-b0d6-a66489822bbf
+[key_placer.py:469]: Removing 36897a27-ac26-4912-8626-cc1e0de7ab16
+[key_placer.py:469]: Removing 143fb695-1e62-48e6-9745-2802393dce5c
+[key_placer.py:469]: Removing 1a91240b-b7c3-4302-b684-ec23bd87a9c3
+[key_placer.py:469]: Removing b75031a9-3f57-452f-9be7-d8efd3a70b13
+[key_placer.py:469]: Removing 328436ec-d1a3-47a3-97ad-3fad9a23b741
+[key_placer.py:469]: Removing d7d86585-8890-43a2-917d-129743dad427
+[key_placer.py:469]: Removing 87a94ebf-1d11-4a75-b295-cdc5ce22470c
+[key_placer.py:469]: Removing f4cc35ac-aaa3-4d14-9909-8cc236d77492
+[key_placer.py:469]: Removing cdc9c6b5-acf9-4cb9-b6d3-5e34091b4322
+[key_placer.py:469]: Removing 4794abcd-2c85-4d3f-a240-ed2b5da83c16
+[key_placer.py:469]: Removing 640eec3f-691d-49cf-9148-9a2a0e77ff96
+[key_placer.py:469]: Removing 59903fea-af13-4b44-96b7-8984a853fd93
+[key_placer.py:469]: Removing 9e8d2c29-0fcd-462e-bd82-3d3ca210fa95
+[key_placer.py:469]: Removing 6e91ec78-0ac1-4815-8a6c-943137a900f6
+[key_placer.py:469]: Removing 4d4620d3-d6d2-4ebe-9217-538aa9324f86
+[key_placer.py:469]: Removing 7db0d289-872a-4845-af15-cb25e767dd37
+[key_placer.py:469]: Removing 237bb4f8-c093-447b-8a19-ee39a4e665e9
+[key_placer.py:469]: Removing 99389a03-c372-45ec-a02b-6cf032dd0ff2
+[key_placer.py:469]: Removing 0a03710d-d525-4da6-9d89-f4ac3e75fce4
+[key_placer.py:469]: Removing e4c560a7-c9dd-4c6c-ae11-945046781e40
+[key_placer.py:469]: Removing 9f7c70df-70e1-4382-b2c1-ca9c487f3862
+[key_placer.py:469]: Removing f22032b7-89cb-47dd-9bb4-3c8a8ca47fc7
+[key_placer.py:469]: Removing 2a4fa50f-4449-4160-9ea4-45f9c366c628
+[key_placer.py:469]: Removing 2ab76305-543e-4a54-9f51-7ecd54be1a9c
+[key_placer.py:469]: Removing 9eb2e605-f3d4-4a98-804f-0b191de90e77
+[key_placer.py:469]: Removing f411ed96-dc37-4ddd-8976-c5ec02d2d13b
+[key_placer.py:469]: Removing 2a80a60c-5803-449f-b091-c09ae08bb8f1
+[key_placer.py:469]: Removing 93b0f294-bfcb-4ad5-9221-e8f2dca35ba4
+[key_placer.py:469]: Removing cc5628b5-08e0-4f55-91a9-545e081d5965
+[key_placer.py:469]: Removing 053c06fd-27e8-42aa-8c13-e41294902580
+[key_placer.py:469]: Removing 83900a49-d61e-4fa3-aa05-deef18ef60f7
+[key_placer.py:469]: Removing 973a30be-40d3-456c-8308-d77076c5f9bd
+[key_placer.py:469]: Removing 0111b682-910d-4bdc-8da1-ddf76757020b
+[key_placer.py:469]: Removing c8bea8d2-27b7-4a30-b39d-c8ef5d478079
+[key_placer.py:469]: Removing 4aea4ef5-7837-40bd-898f-701c60018057
+[key_placer.py:469]: Removing a5126cb3-2cb8-4c45-8cc2-e7bbd5a7a5f6
+[key_placer.py:469]: Removing 8bdff473-9cdc-4f68-89f4-c183f4ddf783
+[key_placer.py:469]: Removing ce6603d7-2e7c-451c-99fd-3ea14cdd0ab0
+[key_placer.py:469]: Removing a9359ecc-be5c-4290-808e-174ffefc29ae
+[key_placer.py:469]: Removing 0e9e1a0f-d402-4ea7-9612-365451bfa3a9
+[key_placer.py:469]: Removing 86c1f475-49e6-40df-942f-ae6c7f3ac0ca
+[key_placer.py:469]: Removing 9808dac6-7306-4bf2-b02e-178a9d1677df
+[key_placer.py:469]: Removing 9a9de177-fd9d-4882-a65f-fc405f407125
+[key_placer.py:469]: Removing b2faf675-1efc-43dd-bbb9-d6284b7110ae
+[key_placer.py:469]: Removing e43c698d-6d53-4d2c-a16f-3abb3296ed14
+[key_placer.py:469]: Removing e6eca1f6-e42e-48ea-a0bc-d950eecbbf0e
+[key_placer.py:469]: Removing 2c7ab85b-6d99-4938-852f-63fcd9130ae9
+[key_placer.py:469]: Removing c85ae66f-7913-4932-a22d-de2e59ad4aff
+[key_placer.py:469]: Removing a88f8054-1f2f-466c-8c3e-c782f4189907
+[key_placer.py:469]: Removing 1ffb4495-222a-4f13-9514-2993ab6ae421
+[key_placer.py:469]: Removing d7674da3-ba48-49c3-b762-9763060ffaf9
+[key_placer.py:469]: Removing 760c987b-eaa7-402d-9926-4a4423641250
+[key_placer.py:469]: Removing a6cee9f7-2bf6-41a9-acb4-e9c662dafc68
+[key_placer.py:469]: Removing dd35d097-a9b8-4022-bc1f-d5e05eb01778
+[key_placer.py:469]: Removing 311e0dc4-5e31-4db6-ae65-5a82b0260334
+[key_placer.py:469]: Removing f757d645-c8dd-4a98-8d40-d9cf9147748d
+[key_placer.py:469]: Removing f51440f0-aee8-46c7-8f75-daecae345f5e
+[key_placer.py:469]: Removing 13aabaf3-2363-4dd4-9913-9c4b3a89c2cf
+[key_placer.py:469]: Removing 6f3478a1-aa21-4a24-927a-90e53b3c2a78
+[key_placer.py:469]: Removing a6838931-15bc-480d-8631-1ddc99a98ee5
+[key_placer.py:469]: Removing db0eb8de-b611-46cb-9b1d-3a9f16611ec8
+[key_placer.py:469]: Removing 2992fdf7-5839-402c-8e4c-9e00b6bc82ae
+[key_placer.py:469]: Removing 2ed9735d-5ae7-487f-8cb9-36011101b807
+[key_placer.py:469]: Removing 0f4bd23e-ac52-4065-a7fd-df247e9bbe55
+[key_placer.py:469]: Removing 2e1511c9-0049-4fac-b509-f39e4e1bb66d
+[key_placer.py:469]: Removing 3dcec00a-0660-4170-be24-bb7e0b09259f
+[key_placer.py:469]: Removing 9a0c1668-c855-4db0-a118-8eea028f8718
+[key_placer.py:469]: Removing 72ae0ee9-37e8-4e4c-814f-1b0e7aa1eadc
+[key_placer.py:469]: Removing 03b4c9a8-953a-4cc5-a160-7f85d636cce3
+[key_placer.py:469]: Removing b4d955de-f2de-4a51-be4b-524d1cedb9f2
+[key_placer.py:469]: Removing 257d884c-736f-474b-a7b3-76f3a55800cd
+[key_placer.py:469]: Removing 10a62524-4b37-4ad8-9819-35e9b9b3996c
+[key_placer.py:469]: Removing 0978bd80-0d14-4106-8aa8-1c53f6363e06
+[key_placer.py:469]: Removing 11b7d1d9-d9c4-418f-95a1-5af8672207f8
+[key_placer.py:469]: Removing a8881495-b781-437f-8019-67f790a476e2
+[key_placer.py:469]: Removing 9e079d6c-ced2-4e1c-887d-a680477fc503
+[key_placer.py:469]: Removing 865229a2-8153-4f43-9e7e-70f01515f565
+[key_placer.py:469]: Removing 2a17d249-8e35-4073-a15e-a4d4369ce0f3
+[key_placer.py:469]: Removing 3e53481f-df35-45c2-840f-2ee49e61f0e9
+[key_placer.py:469]: Removing cbd8a103-934e-4597-a571-b5545f73fa1d
+[key_placer.py:469]: Removing 320420a3-2bd5-4c00-842e-ec14ab37aa82
+[key_placer.py:469]: Removing 5ca016b5-034a-4672-a859-4e3e9091a79e
+[key_placer.py:469]: Removing a823dc43-de8f-4c53-bc09-f07a88028ff3
+[key_placer.py:469]: Removing efd56585-7c3f-4b50-a936-fc3cb9e506ea
+[key_placer.py:469]: Removing fc29bd42-7f50-4db4-a421-a896340de176
+[key_placer.py:469]: Removing 9559ba3f-6657-435c-afec-2536c1858706
+[key_placer.py:469]: Removing 552f3e8e-9135-449a-b9f6-5791cc28aad9
+[key_placer.py:469]: Removing 7f493e1e-4ff4-42eb-ac51-c2d19ac1921e
+[key_placer.py:469]: Removing 83fb08ff-1778-4439-b3c9-5a6ba15143ba
+[key_placer.py:469]: Removing e4b208fd-7f2a-4f9d-bbcf-5fae7172ceb2
+[key_placer.py:469]: Removing 83a27f8a-3d24-4872-87f6-9c10cf3bc636
+[key_placer.py:469]: Removing f9841885-2b5f-40f2-b820-337a2691d453
+[key_placer.py:469]: Removing 987c2b36-4db9-41c1-9424-78d2942aabce
+[key_placer.py:469]: Removing e49cca30-2ded-4299-bb6a-238c47f766af
+[key_placer.py:469]: Removing be32be24-ce12-446f-aade-d04ed6e3b0ab
+[key_placer.py:469]: Removing d93948a2-f574-4dad-bba0-cf9d09ed2930
+[key_placer.py:469]: Removing 0f3353e8-057c-454f-bdb8-9a3389b8c09e
+[key_placer.py:469]: Removing 314ee6b3-4f5e-46be-8826-23d7425a1a43
+[key_placer.py:469]: Removing a224783b-65f7-48a4-a682-6287c4ed0e36
+[key_placer.py:469]: Removing f4ca3636-b85c-4f04-a6d1-dfca6394565f
+[key_placer.py:469]: Removing fd4a750f-23d8-4678-85eb-b4517b667e5d
+[key_placer.py:469]: Removing 5da59621-178d-417f-9626-20954061b79e
+[key_placer.py:469]: Removing 47d5958a-d8b1-4f99-af34-9032846a8e48
+[key_placer.py:469]: Removing cb97e118-6b31-4ef3-ae7e-05ec28626d78
+[key_placer.py:469]: Removing 2534c3ff-f424-4a4e-a3e1-cc2722c4143c
+[key_placer.py:469]: Removing fa7f7fa7-1cb6-4207-8c5c-510a734ed4b4
+[key_placer.py:469]: Removing c14b1a98-ed63-4739-84bb-a9e9f5c2dbb4
+[key_placer.py:469]: Removing 41597505-8273-4288-8078-2d7b4fb6c805
+[key_placer.py:469]: Removing ab51260d-ce15-4380-93ff-1264c98b73fd
+[key_placer.py:469]: Removing 012cd11a-510d-4fc6-85ed-87c4083193da
+[key_placer.py:469]: Removing daa8d409-e2f8-42a4-8366-54949dcf06f0
+[key_placer.py:469]: Removing f1313194-1cce-471a-8506-88a24a5881f8
+[key_placer.py:469]: Removing 9676031f-8bd5-402b-89ea-293f7461841c
+[key_placer.py:469]: Removing 60691b8a-0863-4221-8b6d-40aa4f8c26ec
+[key_placer.py:469]: Removing f339094a-746e-46c9-bc2f-3b5789dfa3aa
+[key_placer.py:469]: Removing cabf732e-06dd-4ecb-8888-6de62936687b
+[key_placer.py:469]: Removing 9d87cacb-9a3e-443b-a855-c22bff86bf90
+[key_placer.py:469]: Removing ec82c87b-6edf-43cb-833f-10173df0bc8d
+[key_placer.py:469]: Removing dae8a38e-57f2-48b3-a1f3-0de394f8d128
+[key_placer.py:469]: Removing 78f9b293-6cf8-4a00-a61e-532d3e8b28fa
+[key_placer.py:469]: Removing afbc8798-8386-4c64-9781-d47f32cb5cdf
+[key_placer.py:469]: Removing 8624b734-02b6-48fc-b4db-86f6dd175f5f
+[key_placer.py:469]: Removing 598ec24b-4f17-4bdb-a83f-35e2a4f12326
+[key_placer.py:469]: Removing ea439361-ca60-4c6f-9c68-2570f155b3f2
+[key_placer.py:469]: Removing 3e31f48e-7f80-478e-868f-d6fa82a37a10
+[key_placer.py:469]: Removing 33808bef-4a4f-41ae-bc5a-271dd995192f
+[key_placer.py:469]: Removing f0f03ad2-8f5c-44d5-aeea-72d96ccb97ed
+[key_placer.py:469]: Removing a13f06e4-8bda-4ea0-867d-6e5bace6653e
+[key_placer.py:469]: Removing 1986299d-0984-41cc-a7b2-107db2fb7d74
+[key_placer.py:469]: Removing b301d1d4-e6b4-4d74-a06d-bb4f5a23526e
+[key_placer.py:469]: Removing 95f07019-c489-4393-b580-8020f359e102
+[key_placer.py:469]: Removing 79cbb9da-c684-4aba-a9a9-52626d7aa44c
+[key_placer.py:469]: Removing f84958e7-311f-4c20-be24-b384755cebde
+[key_placer.py:469]: Removing 500d3ef9-697b-4a9c-b47b-7609457562a3
+[key_placer.py:469]: Removing ed4fdbf2-e3b4-41e3-8754-5d094f668804
+[key_placer.py:469]: Removing 0dbc3745-3439-4950-b834-816052d50508
+[key_placer.py:469]: Removing 67a7252a-2691-4f08-bf42-e1757f3d1fc5
+[key_placer.py:469]: Removing 5c4a61a0-d02e-4452-8cbc-d17ab990f014
+[key_placer.py:469]: Removing 11b382ba-26da-4f44-8d97-55cca9096727
+[key_placer.py:469]: Removing 50d21836-9fc1-482d-bf66-59d5928703d0
+[key_placer.py:469]: Removing 5d0b5dbc-8091-4a10-9fe6-282c50b79482
+[key_placer.py:469]: Removing 7ceebe38-1504-4a48-a84c-b2e340b0fe48
+[key_placer.py:469]: Removing 652b87a8-a116-4fbf-94df-c1e07ff801f5
+[key_placer.py:469]: Removing d8f12588-4b13-447c-a95b-4a42e9929b3e
+[key_placer.py:469]: Removing 6c5370f9-f635-42fd-a72b-26e5847221bf
+[key_placer.py:469]: Removing e52dd917-0883-4445-8493-9126421579f6
+[key_placer.py:469]: Removing 2ba0ce4d-7d99-4982-8ab5-394f2401dca5
+[key_placer.py:469]: Removing d37f4396-abe2-4365-8405-2c2f8cddfa32
+[key_placer.py:469]: Removing d17f922f-e2e3-405e-8e0c-10a02469457e
+[key_placer.py:469]: Removing 8d011ca5-74c4-4552-8a7c-fe9dfbe5bab6
+[key_placer.py:469]: Removing 524ea2fa-56a5-4148-8f46-1637b62f0222
+[key_placer.py:469]: Removing 0388e963-a21d-4b9a-9707-91206b44b922
+[key_placer.py:469]: Removing 7bbe00f6-b91f-42ed-b52d-5fdfe2a98502
+[key_placer.py:469]: Removing e87586b5-68d8-4eb9-b5f3-75d6d4e4c5b7
+[key_placer.py:469]: Removing 46eda565-6174-46ff-a3fa-01d4d6ffade1
+[key_placer.py:469]: Removing 9673c81a-336d-4d55-912e-8614d9a72214
+[key_placer.py:469]: Removing b7691723-8834-4b67-8db1-eed355e65b9a
+[key_placer.py:469]: Removing 4f3c973e-ade7-423d-b1bd-471103946d31
+[key_placer.py:469]: Removing 787143d9-e7dd-4c34-9b96-c4731a1cd53e
+[key_placer.py:469]: Removing 00290e32-044a-43fb-b86d-bc719980e140
+[key_placer.py:469]: Removing a64e98c7-1b59-4349-921c-2dcb96b87a91
+[key_placer.py:469]: Removing 97b54120-ae2d-45e1-a427-b15e7adb88b9
+[key_placer.py:469]: Removing 1da5b019-0f70-4060-a956-e9aca4c2189a
+[key_placer.py:469]: Removing 59029e36-a3fb-4427-ad3f-19d89028dd1a
+[key_placer.py:469]: Removing 59700a0e-0229-45e9-8704-ad1befd84194
+[key_placer.py:469]: Removing 9ed24477-74e2-44e2-96a1-b4b1951e3949
+[key_placer.py:469]: Removing 78e3536b-c6af-46d1-a4fb-e1be9d36a9bb
+[key_placer.py:469]: Removing 2a6fd24d-b4c2-4d11-8eac-09fb88bd00cd
+[key_placer.py:469]: Removing cd951a4a-4d61-4798-9a47-107016c25d49
+[key_placer.py:469]: Removing 3e39b1ea-7876-4396-8e1d-07aa4785c1f0
+[key_placer.py:469]: Removing 949e57e8-4387-495c-be50-43a8cdd4b743
+[key_placer.py:469]: Removing cc47113b-d5d7-4e94-b48a-b328ad6c989c
+[key_placer.py:469]: Removing 395f9ed6-0a30-4e90-a5e7-8b8bf8223e67
+[key_placer.py:469]: Removing c27f7569-73e2-4e4a-93b1-9099497331f8
+[key_placer.py:469]: Removing 24a36478-2ca2-49f6-b9db-0b87d54c3938
+[key_placer.py:469]: Removing a7018f26-966a-4f70-a222-b9ce11416814
+[key_placer.py:469]: Removing ba29fe98-982d-4679-b9b7-1afd67c90fa9
+[key_placer.py:469]: Removing 828d43af-ae36-4fff-a882-a5b7808e7f8b
+[key_placer.py:469]: Removing a116afe0-55aa-4930-b37b-294c72f6d049
+[key_placer.py:469]: Removing 9279329d-19ba-43b8-b622-0e15c2d412ff
+[key_placer.py:469]: Removing c2989408-3943-4828-b4ac-9fba9dd8cb0b
+[key_placer.py:469]: Removing dbbec381-9dac-4163-a8c9-2575214d13bf
+[key_placer.py:469]: Removing 753e74ee-2652-4218-b963-9502683c5dcc
+[key_placer.py:469]: Removing 1530015b-94fb-4b6c-a4e2-8567b41dbf72
+[key_placer.py:469]: Removing 52e32bfc-8795-4263-bb3f-aa31270bd363
+[key_placer.py:469]: Removing 31d873fb-65d4-4d8a-b7eb-54515273dad5
+[key_placer.py:469]: Removing b5461c1a-892c-4d93-b9f6-a8243f23057f
+[key_placer.py:469]: Removing d37048a2-c3a2-4f3d-9e0e-f1334dfd7cd9
+[key_placer.py:469]: Removing 55781532-59d0-456c-8971-66d021e59e3a
+[key_placer.py:469]: Removing b2ca27ba-f641-4f6f-b6c8-3c3999015ab5
+[key_placer.py:469]: Removing 8af8a8a0-6af9-48d2-85a1-fc8762b941bb
+[key_placer.py:469]: Removing b39d1288-3460-4856-9a0a-ccb916b12957
+[key_placer.py:469]: Removing 44bb459a-05a4-4368-bded-78dd5e90c726
+[key_placer.py:469]: Removing 5aadad6c-a5b1-4066-b71d-c5961a666dc0
+[key_placer.py:469]: Removing c52b1e21-2f18-4016-8110-2725500fb7ed
+[key_placer.py:469]: Removing a7de9b7d-bf61-4fee-9181-6e692b5d617a
+[key_placer.py:469]: Removing 49e7b34e-552a-4951-986e-2b9de759913f
+[key_placer.py:469]: Removing ed5350ae-08ce-4a6a-a3e3-ea9cce72d1eb
+[key_placer.py:469]: Removing 5e953cc5-e5e7-4edf-8fb5-a9eeb971e13e
+[key_placer.py:469]: Removing 3a55e72e-b73d-44f1-ab5a-820dbe3f6a92
+[key_placer.py:469]: Removing 07d7c586-3ca5-48f2-a1f4-9d5f320da983
+[key_placer.py:469]: Removing 19792257-7e70-424e-a6b8-974b3c2bf881
+[key_placer.py:469]: Removing 2514c16b-6998-43f8-8856-b542582e9e72
+[key_placer.py:469]: Removing 61bfae08-4a28-4f25-8624-21d9af61e8c2
+[key_placer.py:469]: Removing e6d09408-eb91-45ad-8d9f-21787d1146f1
+[key_placer.py:469]: Removing 43ac7d9e-68e1-45e7-a8cd-9fe6440b31d6
+[key_placer.py:469]: Removing 49d6cb0e-da43-4cda-b570-a275b5f9c10f
+[key_placer.py:469]: Removing 50d275f7-2795-4375-8327-7d4cc6c07de4
+[key_placer.py:469]: Removing d75ef41e-475a-41a1-9d12-7d9d783c1ffc
+[key_placer.py:469]: Removing 322f3ce4-dde7-48d5-83b4-350bead1ad60
+[key_placer.py:469]: Removing a55fbfdb-8ae8-45d0-8554-a7c8fdee9598
+[key_placer.py:469]: Removing 8adbcbe9-5c42-44f0-80a0-d9f8f10ecd53
+[key_placer.py:469]: Removing dd77d18f-a7fb-428f-9c7f-63ef1df4034d
+[key_placer.py:469]: Removing 967e3225-d893-4919-a5f2-7fdc2fcc667a
+[key_placer.py:469]: Removing f6d6f1e3-1c9c-40c0-a282-c5b4eaab0cfa
+[key_placer.py:469]: Removing e3f58c26-459f-4acd-a554-701ca556bb2b
+[key_placer.py:469]: Removing 9f36fba2-eaf6-4e2a-ad8b-8d7763314571
+[key_placer.py:469]: Removing 0d8c2300-dd31-4d27-bc49-d2f16d9c58f9
+[key_placer.py:469]: Removing e0f476db-f2a5-4a15-a142-84a26ab85426
+[key_placer.py:469]: Removing e9adf1f7-fded-497d-b710-308e3157f743
+[key_placer.py:469]: Removing f4172d0d-ec38-48a0-8554-016f6991c117
+[key_placer.py:469]: Removing 12f6b51b-0257-4bd0-8d62-3aab0f52ea47
+[key_placer.py:469]: Removing a496a91b-6f08-421a-b173-d05e93156850
+[key_placer.py:469]: Removing dde83877-26d2-4414-bb4e-30cf3222dfea
+[key_placer.py:469]: Removing af46f988-7fed-4df9-9246-25fda96f6bb4
+[key_placer.py:469]: Removing 85afbfe8-3696-4325-a328-205e38b4fbf4
+[key_placer.py:469]: Removing dec22df3-bd6e-4dcf-ada7-df429e3c5b1b
+[key_placer.py:469]: Removing 75f4d5c1-12d8-4ffa-8162-ac93e6cf3d9e
+[key_placer.py:469]: Removing 2409647c-5dfb-4b62-acae-edb3c7f979a2
+[key_placer.py:469]: Removing 3e035bf6-bb49-46d2-a342-29e10f1b9a7a
+[key_placer.py:469]: Removing d488a15f-2ef9-4986-aa10-f81838c68465
+[key_placer.py:469]: Removing a1fd8846-bb84-4c9b-aab2-662039a1deec
+[key_placer.py:469]: Removing 95cb98e6-e754-4ab1-818e-48afeda20646
+[key_placer.py:469]: Removing fea9ff00-7236-4a47-9118-d4ac97da0719
+[key_placer.py:469]: Removing ccd0b35c-8e11-4661-8bb0-5223e9c6b3a3
+[key_placer.py:469]: Removing b26f4b72-ab47-494d-82d8-787e3181af4d
+[key_placer.py:469]: Removing 74a1584d-3740-446e-9b54-a8cdeb75dcb1
+[key_placer.py:469]: Removing 44587d12-24d9-4ec9-9a9a-68bb3f5aa796
+[key_placer.py:469]: Removing bdc80fef-7b39-43a5-bfce-92b3e7620874
+[key_placer.py:469]: Removing 17b85284-f621-4a72-9bf5-f1a3e8fe28ce
+[key_placer.py:469]: Removing dcafc2f1-e4b0-456a-b531-ed0f34be7090
+[key_placer.py:469]: Removing fee7eb9f-4049-4af4-94bf-64736fc31d97
+[key_placer.py:469]: Removing f8a9b5ec-9c59-4b30-a301-80c681fab113
+[key_placer.py:469]: Removing eaac8bef-5d6d-4017-adff-642607bc178d
+[key_placer.py:469]: Removing 8f2b11ff-a1f4-4d74-bfd7-a8931c4502b7
+[key_placer.py:469]: Removing 1c66bf9d-dd8c-4252-89ac-4a26bd3e26ed
+[key_placer.py:469]: Removing fe9b3528-8770-4cab-a2be-b830bbd6263d
+[key_placer.py:469]: Removing 7a50d4e8-bdfb-4c69-91eb-06e922f064f4
+[key_placer.py:469]: Removing c9accd54-0e37-4862-8306-3885f1d21bc7
+[key_placer.py:469]: Removing 0e7c0f06-0fd4-452d-8ffd-7e2b48f2c4f7
+[key_placer.py:469]: Removing be441ac0-8af0-41b2-a3d8-8ccd93385601
+[key_placer.py:469]: Removing f4a88a00-aab2-453c-96dd-a385ec1d18ed
+[key_placer.py:469]: Removing 2bbc0971-3b84-4200-ba94-d3a84d82c01c
+[key_placer.py:469]: Removing 92aa6b25-1e57-4212-ad0c-3feb67381dcf
+[key_placer.py:469]: Removing f6dbf057-8978-4ccf-a8f2-fe658cb01937
+[key_placer.py:469]: Removing 22581c60-b5be-4609-9c28-a25f787c525e
+[key_placer.py:469]: Removing 01b141c4-2dd5-4ff5-b6e1-5acc26a3b673
+[key_placer.py:469]: Removing bfcfbf64-a8c9-4254-a62c-eafc2648e83e
+[key_placer.py:469]: Removing 551f486f-ab49-4a4f-b87d-c2277e39bb36
+[key_placer.py:469]: Removing ef4125a9-2282-4d41-af70-245a672e789f
+[key_placer.py:469]: Removing a1e62800-2119-4818-9e41-1b83a4b57e18
+[key_placer.py:469]: Removing 480b435b-7214-4f37-8685-3b567ec829ac
+[key_placer.py:469]: Removing 5fa0e03c-ba71-4b3a-a8bc-ec8f90ed66bc
+[key_placer.py:469]: Removing b7296468-9e7a-44f4-a946-871c72f977a6
+[key_placer.py:469]: Removing 9868dc0f-e483-467b-8e70-6700c3a44354
+[key_placer.py:469]: Removing 36cdb9bb-b5b9-4341-8dbc-9b58aa48c49f
+[key_placer.py:469]: Removing 36c07871-51c1-4f0a-83cc-af645c7d3903
+[key_placer.py:469]: Removing 8e3a19a4-77be-4c1c-a4b4-2eb070b7d511
+[key_placer.py:469]: Removing 9e9e207f-3db4-46a7-9ff2-271fe3c1ad37
+[key_placer.py:469]: Removing d39674a7-4907-4136-9e42-96a97928b7c4
+[key_placer.py:469]: Removing 45f10f79-d6d4-47b3-84b5-f52ea2c47601
+[key_placer.py:469]: Removing 182aa52d-6fa7-4a18-92c0-eae657e8d0f8
+[key_placer.py:469]: Removing 27e2727e-3a58-4b1b-9be6-eae2bb5155bc
+[key_placer.py:457]: Removing dangling tracks
+[key_placer.py:469]: Removing fe7f638f-79d9-40e0-b404-ee006ddeafc2
+[key_placer.py:469]: Removing 4e149bab-0ae9-41d1-afb6-b573669ee234
+[key_placer.py:469]: Removing 02da7464-f820-4f13-a56e-b95d2d398b22
+[key_placer.py:469]: Removing 12d7c252-e7bb-4efa-b3ba-94c81025a94b
+[key_placer.py:469]: Removing 7614f51d-eb92-41e2-b8d1-bd6052a26d4a
+[key_placer.py:469]: Removing 12b3f82a-2b32-420d-b5b7-469c5f32c439
+[key_placer.py:469]: Removing a68f71b2-d169-4add-86ac-c64df257c13e
+[key_placer.py:469]: Removing c0faee1b-5fee-42b1-81dd-01519683b584
+[key_placer.py:469]: Removing 002bd5bb-f586-4e43-b4d8-2fb16d6a59c0
+[key_placer.py:469]: Removing 524c9eae-2df1-4b1b-bd3f-8d80b67281b5
+[key_placer.py:469]: Removing 18a6a551-f2c3-4bf4-a274-8b216c6a88ae
+[key_placer.py:469]: Removing 544cd36f-b229-45eb-94f8-56a747f9413e
+[key_placer.py:469]: Removing 4f396bd7-284b-41ce-b7cd-cffc180e8c4c
+[key_placer.py:469]: Removing 696270a2-5c1f-43b4-b60e-ff1861d740fd
+[key_placer.py:469]: Removing 5e9e08d1-31f2-4698-ae50-3e86f33ccab9
+[key_placer.py:469]: Removing 62700702-701d-4df7-9497-24b673217513
+[key_placer.py:469]: Removing 0f9d1a41-a78d-4a0f-aaa3-204dfbad80ea
+[key_placer.py:469]: Removing 2fe8c172-8726-4909-812c-597d23aeb56d
+[key_placer.py:469]: Removing 9d063372-c811-4b99-8ae7-fe2c6dcdba55
+[key_placer.py:469]: Removing 3e0b21f7-7ed5-41ad-983f-5ea097fd8c85
+[key_placer.py:469]: Removing d7bb06f7-db10-49fa-8365-5ae0a1ebdd05
+[key_placer.py:469]: Removing fbf48254-d83d-488f-998e-6a7cf5ad66f5
+[key_placer.py:469]: Removing 4edbe519-9b59-4bdd-93d5-a9aacd515e67
+[key_placer.py:469]: Removing 7545293e-ed47-4b33-a40b-262daccf062b
+[key_placer.py:469]: Removing f449c18f-928d-48cd-8145-8ba2058dde3f
+[key_placer.py:469]: Removing d13a0b2e-6f5e-4e5a-ba59-39d2ac10c8e5
+[key_placer.py:469]: Removing 218aaa4d-435e-433e-a6a2-24c300d5e787
+[key_placer.py:469]: Removing 116ecd9d-42c1-4b9a-97d3-d25e8eeb9e31
+[key_placer.py:469]: Removing 73523023-fc97-415b-9c4a-b79bfba48671
+[key_placer.py:469]: Removing c5b180e4-3b7a-458a-ad0c-7e8a829d69d2
+[key_placer.py:469]: Removing b65ee8fe-be45-4941-910d-5ad406c3ed72
+[key_placer.py:469]: Removing 4dd87209-c35f-46aa-b6d9-d7ccd61a824b
+[key_placer.py:469]: Removing 2715c19b-f9b1-4a26-b8b0-9500f0ecc475
+[key_placer.py:469]: Removing f4d020bd-4bee-407a-8ed0-1cb0939aee04
+[key_placer.py:469]: Removing 1a84e2c7-52d4-4f95-b8ab-db4602615428
+[key_placer.py:469]: Removing 3797a442-95de-4f7f-ac22-e32c5a4b7e0c
+[key_placer.py:469]: Removing 8842d8d6-d244-47e3-9612-59209ca7b74a
+[key_placer.py:469]: Removing e2ca2ea1-9ac2-4e7d-87fe-6f0bd53bf687
+[key_placer.py:469]: Removing 25d8291d-9977-4d4d-b14f-0a26170dedeb
+[key_placer.py:469]: Removing c98adbed-336d-4564-8d1c-cb88f162c4d2
+[key_placer.py:469]: Removing 73fd8a94-24a9-40f2-ad91-46c979b33965
+[key_placer.py:469]: Removing ead613f9-ecb6-47bc-bd56-83db345c43f0
+[key_placer.py:469]: Removing 1b64eb8f-2f0e-49f8-8ee2-a04e2ba41e28
+[key_placer.py:469]: Removing 392787f3-4730-4a5d-a57d-5daa36b09afb
+[key_placer.py:469]: Removing 13c934f0-ff37-487c-9c40-a1b83db0afa5
+[key_placer.py:469]: Removing a3fd27ce-2171-448a-b6a2-438b34a20743
+[key_placer.py:469]: Removing caba493e-9421-46d1-9f6f-094217eccab5
+[key_placer.py:469]: Removing bddbc088-c009-48c6-998f-a3a76ceb3892
+[key_placer.py:469]: Removing 26d93e6a-c371-4a24-b3b5-5a1a1ad563a5
+[key_placer.py:469]: Removing cce72247-a87f-4874-9fd4-ecbd546e8797
+[key_placer.py:469]: Removing 915f8907-f5b5-4fa1-89d4-4880406c1c63
+[key_placer.py:469]: Removing fd91605e-1a80-4b9a-a352-d94bcddef124
+[key_placer.py:469]: Removing 52f59db2-9a91-4fc9-bf55-0876240c551e
+[key_placer.py:469]: Removing 8dbb24e6-ae7b-4b72-acaf-1c49577b85a9
+[key_placer.py:469]: Removing d62e9865-495f-4e70-8d63-3d4c9737f82f
+[key_placer.py:469]: Removing 0a208cf2-52ab-46fb-a343-3c0bf820e9b4
+[key_placer.py:469]: Removing 691e3617-22bb-4ef7-8942-2bdbaa09f2d3
+[key_placer.py:469]: Removing 6cb2aa86-69eb-47a3-a491-5e2f8d142d60
+[key_placer.py:469]: Removing 2e2a294b-8ee6-40a8-a6f2-26237206f350
+[key_placer.py:469]: Removing 604c1734-72e8-487d-a234-defff3540ebc
+[key_placer.py:469]: Removing ba4c15af-bdbf-42a1-bbf2-ade3304221b9
+[key_placer.py:469]: Removing 3e1701c7-35aa-4f67-9cf5-822fd3a4802d
+[key_placer.py:469]: Removing 4f0545a7-7188-4f35-be5f-2a71d38a5485
+[key_placer.py:469]: Removing bd07a280-088c-4d62-b87c-83465c1c4efa
+[key_placer.py:469]: Removing 2060d162-057f-42ff-aaf6-a35b7b07a8a4
+[key_placer.py:469]: Removing bff1588f-7ccc-45b1-9178-06810fb2fe51
+[key_placer.py:469]: Removing aa501273-281c-4f5e-88e2-d8f08dd685a6
+[key_placer.py:469]: Removing 676db6b9-0ce3-4008-b109-8275432a8403
+[key_placer.py:469]: Removing eb446ab4-f64d-4793-b9a3-3308cf65f30b
+[key_placer.py:469]: Removing bfd39afc-7bfa-4a7b-9855-e38547f8baed
+[key_placer.py:469]: Removing 1e4508f9-ead8-4c2c-af93-26f328f42359
+[key_placer.py:469]: Removing e575a9cd-3f57-433d-8370-f8543da24b39
+[key_placer.py:469]: Removing 5fed927a-2919-4c1f-93d2-f87cd4de494b
+[key_placer.py:469]: Removing 55d12bc8-03c4-40af-947f-09c36120f05f
+[key_placer.py:469]: Removing 17678618-0a53-487e-8633-27cb08ad529f
+[key_placer.py:469]: Removing b1c0292e-2d29-4b5a-8d68-21ce2d0bfed5
+[key_placer.py:469]: Removing e59c9906-4750-4eee-bb87-6cc676b4b3b3
+[key_placer.py:469]: Removing e8cd2bb5-b165-4937-bdee-520159e954a9
+[key_placer.py:469]: Removing 7a21d219-2a82-4637-9814-3d2b8cb0df6a
+[key_placer.py:469]: Removing c5b6204e-2e90-4ab7-a50f-e818c0485d33
+[key_placer.py:469]: Removing 7a8ab030-2126-467c-88cd-7feca81ba302
+[key_placer.py:469]: Removing 532c9c30-827d-4a9d-803e-0cd06ae7dbbe
+[key_placer.py:469]: Removing 8ef22d8b-4601-4539-85e1-d896ad33b663
+[key_placer.py:469]: Removing a8a438f8-eb9b-461f-8605-f4fbbf4bdb64
+[key_placer.py:469]: Removing 4fabfccf-f128-47c8-a1e7-205970466962
+[key_placer.py:469]: Removing 09c73b8f-d890-4e32-9dd8-96eb954a1e01
+[key_placer.py:469]: Removing 8ca581c2-b494-4d31-87c8-d7ad2a535850
+[key_placer.py:469]: Removing ae0b7071-96f0-4eba-8883-91231dfa5d14
+[key_placer.py:469]: Removing 2cdcb440-abf8-418c-b741-a4980687c461
+[key_placer.py:469]: Removing a2fc4c5b-0471-4d06-85ea-a17c749d5ee9
+[key_placer.py:469]: Removing 863eed4f-efdd-49dc-8f5a-4c8fb8cfd99d
+[key_placer.py:469]: Removing 126e302a-9dc2-4382-8ebc-19bf97fb1865
+[key_placer.py:469]: Removing 7c7d636f-b606-4246-bb89-1057ab8b700d
+[key_placer.py:469]: Removing 05dc291d-388b-4781-9a19-acaac6cbe76f
+[key_placer.py:469]: Removing 15ae142d-b860-4030-a661-52e92492bf00
+[key_placer.py:469]: Removing 577c76fb-b1d9-40c1-8ffa-78d43a3aaf9d
+[key_placer.py:469]: Removing 0659e1cb-6e92-4916-82de-df42ca1a1d4f
+[key_placer.py:469]: Removing 89c37954-42d8-48af-8435-ca5d611e9253
+[key_placer.py:469]: Removing c2813639-f41e-4cd3-8a8f-d95dfa880327
+[key_placer.py:469]: Removing 46ea0429-86fe-4621-8afe-c3e9299dd838
+[key_placer.py:469]: Removing 6062d2f9-4281-4254-a316-a6bb219a8d21
+[key_placer.py:469]: Removing 38e4b370-2093-41a6-9087-656348547892
+[key_placer.py:469]: Removing 1b25a1dc-2a63-4782-a5d3-c8a08c96d34e
+[key_placer.py:469]: Removing 81e29239-523d-4332-8f56-cea037048d7c
+[key_placer.py:469]: Removing 527cb422-e52f-4995-81fc-7a48039b7fe1
+[key_placer.py:469]: Removing c3ea9dd7-460c-4670-a28b-d68572917ff4
+[key_placer.py:469]: Removing 58b3b339-1244-4154-85e5-2ba28103527f
+[key_placer.py:469]: Removing 56f89bcb-b166-4492-9701-e0da29462550
+[key_placer.py:469]: Removing e08eca90-f05f-42b3-8d2a-ffb1b6a95e53
+[key_placer.py:469]: Removing 86931245-095b-4503-af7b-281c8d12e83e
+[key_placer.py:469]: Removing 3aac0a60-303e-4045-b3b6-fc3d3f2f0105
+[key_placer.py:469]: Removing e155b465-be9d-421b-8f77-d136b5471a9d
+[key_placer.py:469]: Removing 8faa473e-3e8f-4dfc-a8ea-245e00a93bff
+[key_placer.py:469]: Removing 82ca684d-84b2-44ce-81df-8fb624b657f0
+[key_placer.py:469]: Removing 9a7f1646-cbc6-4cf4-bc2a-b27e782dec08
+[key_placer.py:469]: Removing 58250e9f-746c-4ff1-8582-0d93fd4685d7
+[key_placer.py:469]: Removing e8617595-0fb3-49f9-a4dc-2c26fab9e296
+[key_placer.py:469]: Removing cc6a8999-47d2-4c6c-a963-f6dd8c50b5cf
+[key_placer.py:469]: Removing aec96553-9aa6-4a57-b958-db14f5eb3777
+[key_placer.py:469]: Removing 1ba5c7b3-d2b5-470a-b11c-3cb62251d998
+[key_placer.py:469]: Removing dd0c479f-5031-4209-8065-f6da2f4bdf9c
+[key_placer.py:469]: Removing c2ee77cd-9756-479a-b701-bb1d0b27a5c7
+[key_placer.py:469]: Removing 79050f66-9165-42f2-ad1e-1f94fcac6106
+[key_placer.py:469]: Removing e6957892-750a-4ab8-8996-0cd1d502a1fe
+[key_placer.py:469]: Removing 0b891dd6-b7e5-43fb-bb11-14be88400537
+[key_placer.py:469]: Removing 9fd62925-9908-40f2-b0a2-c690016ab14c
+[key_placer.py:469]: Removing dc7232f4-cd68-436c-add9-e0a0f3d0d3d1
+[key_placer.py:469]: Removing 818957cd-2693-4c25-9c11-699e1fb42991
+[key_placer.py:469]: Removing 574ae153-7e42-41aa-9078-2853ce216cfa
+[key_placer.py:469]: Removing 8dd9b470-9420-44c7-b07c-50bef3a0f24f
+[key_placer.py:469]: Removing 9958b36d-5c85-41ef-8874-24fac95010c7
+[key_placer.py:469]: Removing 85a4b735-44f5-4b85-9c07-da54b12028de
+[key_placer.py:469]: Removing 6b906152-9fbf-407e-8608-3184490f04e8
+[key_placer.py:469]: Removing 51968315-2409-402f-b4fb-806ead44ba84
+[key_placer.py:469]: Removing 33ba9899-8c2f-4a8e-8c0f-c063cdc64b90
+[key_placer.py:469]: Removing 5f334c79-2c37-48ca-a586-d3f6a8be4ef8
+[key_placer.py:469]: Removing 197e58c1-abf0-4a63-a421-7cb9d74ad3e1
+[key_placer.py:469]: Removing 77e4fad0-8e9c-4602-9db5-05791772d385
+[key_placer.py:469]: Removing 61039340-a30f-4262-9258-7372ccfa0bc9
+[key_placer.py:469]: Removing 484bd980-f09c-413e-9cc4-61d326f20572
+[key_placer.py:469]: Removing f25debb4-5503-487f-a702-3c0c2086d612
+[key_placer.py:469]: Removing 1cf0e07a-3c39-4166-a7b9-79013ca4848a
+[key_placer.py:469]: Removing 770f7c05-a8b9-4999-859b-cd2b22c8337d
+[key_placer.py:469]: Removing 1b9f8f38-65f4-4cd9-a82b-d6b90527bcb3
+[key_placer.py:469]: Removing f11e6b21-ccef-4954-8872-749e5fd594c4
+[key_placer.py:469]: Removing a6f42e05-4856-4c1d-b3ae-0743f7e7d871
+[key_placer.py:469]: Removing 692ff6be-f7c2-4568-a2dd-93b5d03ca1ac
+[key_placer.py:469]: Removing 16c3895e-9e11-4b30-a9af-c5fdde25b437
+[key_placer.py:469]: Removing 107d92a1-f199-4ca3-b47f-ce74b5d94fc5
+[key_placer.py:469]: Removing d9bafe07-2a4c-487c-a756-ca1c1a85f93d
+[key_placer.py:469]: Removing adad154d-3da7-4933-99f2-29fa98a77215
+[key_placer.py:469]: Removing e349a977-39a0-4b48-8d1f-ac242c0de54d
+[key_placer.py:469]: Removing a1f3cc38-e37b-4299-9f5d-d64a23183009
+[key_placer.py:469]: Removing 3c6c6e79-3f18-421e-ac89-4b9a1a217cfa
+[key_placer.py:469]: Removing f7d96d7a-cc80-4654-b391-9c3c25c71974
+[key_placer.py:469]: Removing bd667818-8c63-454b-ba4f-ca2afc8e09d8
+[key_placer.py:469]: Removing c78ab2d7-423a-4bf0-963e-09434536099e
+[key_placer.py:469]: Removing 42d561ca-9f43-4ec0-b412-afa785fa143c
+[key_placer.py:469]: Removing e7521501-ba6e-4ba6-a9df-46b718da3ec3
+[key_placer.py:469]: Removing e0823540-c6b7-4470-989e-c449239acca9
+[key_placer.py:469]: Removing a2bf4ccc-d05c-4aa6-9a6b-2d161f8fff9b
+[key_placer.py:469]: Removing 90314b51-6f16-4887-95f7-1a4d83b8f6bc
+[key_placer.py:469]: Removing ef481362-d1f6-4315-bfc2-7afd3ac8e4d1
+[key_placer.py:469]: Removing f9cb2771-81af-42f6-ae17-687156400bb0
+[key_placer.py:469]: Removing 69c3cd43-c212-439b-9c6b-f0e814956edd
+[key_placer.py:469]: Removing 879571c7-0319-4b39-b616-da24860d9abc
+[key_placer.py:469]: Removing 58b087c1-e1df-4213-8eed-fe75b8bb41dd
+[key_placer.py:469]: Removing 5c187e99-279f-4e02-9ca8-39d9560d6406
+[key_placer.py:469]: Removing 50760947-e0ab-48d1-a82b-c3eca8258a7c
+[key_placer.py:469]: Removing a5c10b69-540a-4a7a-a639-b9e4d9ab35c3
+[key_placer.py:469]: Removing a5ad0679-f5a6-4abb-a14e-538ea10a8bfe
+[key_placer.py:469]: Removing 05881f20-17be-4147-8f43-e70154b27358
+[key_placer.py:457]: Removing dangling tracks
+[key_placer.py:469]: Removing 9a85c9fb-f613-4d8f-ba01-00528c562f35
+[key_placer.py:469]: Removing 26ba004d-387d-4fc9-a699-32a5b39938b2
+[key_placer.py:469]: Removing 768b4951-9633-466e-97c3-61931bfcd026
+[key_placer.py:469]: Removing 6c140ab6-09a8-490e-a3fe-3f9ed26e1952
+[key_placer.py:469]: Removing 915c5f5e-41c1-4345-bf40-44e60c7bac84
+[key_placer.py:469]: Removing 2bde4ccb-80be-45ee-ab6b-b189f64e7836
+[key_placer.py:469]: Removing 12b42907-f0bc-4ed2-bf0c-8108d58feb6e
+[key_placer.py:469]: Removing 5db826c5-a377-4f8b-92a3-cba2c32d3fa1
+[key_placer.py:469]: Removing 1658f5d7-4550-4a83-82b1-ace0dcd5bccf
+[key_placer.py:469]: Removing ada4fec9-95a4-4e75-bc2b-08f0ed2d452b
+[key_placer.py:469]: Removing 0e86043c-c3a1-45c2-a0ea-be8e80c3e688
+[key_placer.py:457]: Removing dangling tracks
