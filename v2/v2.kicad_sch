@@ -7943,7 +7943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 265.43 85.09 0)
 			(effects
 				(font
@@ -8324,7 +8324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -8702,7 +8702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -8943,7 +8943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 208.28 44.45 0)
 			(effects
 				(font
@@ -9031,7 +9031,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 246.38 125.73 0)
 			(effects
 				(font
@@ -9255,7 +9255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 227.33 105.41 0)
 			(effects
 				(font
@@ -9343,7 +9343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 151.13 105.41 0)
 			(effects
 				(font
@@ -9431,7 +9431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 246.38 85.09 0)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -9897,7 +9897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -9985,7 +9985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 265.43 44.45 0)
 			(effects
 				(font
@@ -10209,7 +10209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 208.28 64.77 0)
 			(effects
 				(font
@@ -10439,7 +10439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 265.43 105.41 0)
 			(effects
 				(font
@@ -11019,7 +11019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 189.23 64.77 0)
 			(effects
 				(font
@@ -11382,7 +11382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 208.28 85.09 0)
 			(effects
 				(font
@@ -11470,7 +11470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 246.38 64.77 0)
 			(effects
 				(font
@@ -11971,7 +11971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 208.28 125.73 0)
 			(effects
 				(font
@@ -12488,7 +12488,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -12642,7 +12642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -13285,7 +13285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -13665,7 +13665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 246.38 105.41 0)
 			(effects
 				(font
@@ -13892,7 +13892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 227.33 64.77 0)
 			(effects
 				(font
@@ -14665,7 +14665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 227.33 125.73 0)
 			(effects
 				(font
@@ -14821,7 +14821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -15396,7 +15396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 151.13 85.09 0)
 			(effects
 				(font
@@ -15629,7 +15629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -15996,7 +15996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 171.45 85.09 0)
 			(effects
 				(font
@@ -16288,7 +16288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 189.23 44.45 0)
 			(effects
 				(font
@@ -16376,7 +16376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 265.43 64.77 0)
 			(effects
 				(font
@@ -16541,7 +16541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 189.23 105.41 0)
 			(effects
 				(font
@@ -16695,7 +16695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 246.38 44.45 0)
 			(effects
 				(font
@@ -17000,7 +17000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P10.16mm_Horizontal"
+		(property "Footprint" "Keebio-Parts:Diode-Hybrid-Back"
 			(at 171.45 105.41 0)
 			(effects
 				(font
