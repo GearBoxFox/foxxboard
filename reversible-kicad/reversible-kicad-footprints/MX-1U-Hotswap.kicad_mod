@@ -521,15 +521,15 @@
 		(remove_unused_layers no)
 		(uuid "7f159738-4280-4df0-90fe-30a8cca78820")
 	)
-	(model "C:/Users/lboog/GitHub/hackpad-v2/MX_V2-main/3D/MX-Hotswap-Socket.step"
+	(model "C:/Users/lboog/Documents/GitHub/hackpad-v2/3d/Cherry MX.STEP"
 		(offset
-			(xyz -4.8 0.8 0)
+			(xyz -0.1 1 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
