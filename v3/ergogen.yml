@@ -1,0 +1,233 @@
+meta:
+  engine: 4.1.0
+units:
+  # Proxy spacing, cherry kx size
+  kx: U + 0.25
+  ky: U + 0.25
+  # Padding
+  px: kx + 4
+  py: ky + 4
+points:
+  zones:
+    matrix:
+      # fix kicad anchor
+      anchor:
+        shift: [150, -150]
+      key:
+        padding: 1ky
+        spread: 1kx
+      columns:
+        outer:
+          rows.mod.skip: true
+          rows.num.row_net: GP10
+          rows.top.row_net: GP11
+          rows.home.row_net: GP12
+          rows.bottom.row_net: GP13
+          key:
+            width: 1.5kx
+            column_net: GP1
+        pinky:
+          key.stagger: 1kx
+          key.spread: 1kx + 5.5
+          key.column_net: GP4
+        ring:
+          key.splay: -0.5
+          key.column_net: GP5
+        middle:
+          key.stagger: 2.5
+          key.column_net: GP6
+        index:
+          key.stagger: -2.5
+          key.column_net: GP7
+        inner:
+          rows.mod.skip: true
+          key.stagger: -2.5
+          key.splay: -0.5
+          key.column_net: GP8
+      rows:
+        mod:
+          row_net: GP13
+        bottom:
+          row_net: GP12
+        home:
+          row_net: GP11
+        top:
+          row_net: GP10
+        num:
+          row_net: GP9
+    thumbs:
+      key:
+        padding: 1ky
+        spread: 1kx
+      anchor:
+        ref: matrix_inner_mod
+        shift: [-2u, -20]
+      columns:
+        first:
+          key:
+            splay: -5
+        second:
+          key: 
+            splay: -5
+            shift: [2.5, 0]
+        layer:
+          key:
+            splay: -10
+            shift: [5, 0]
+            column_net: GP8
+        space:
+          key:
+            splay: -10
+            shift: [7.5, 0]
+            column_net: GP8
+      rows:
+        cluster:
+          row_net: GP14
+  rotate: -15
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [px, py]
+  keys:
+  - what: rectangle
+    where: true
+    bound: false
+    size: [kx-0.5, ky-0.5]
+  board:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        - ref: matrix_outer_num
+          shift: [-0.75px, 1.25px]
+        - ref: matrix_pinky_num
+          shift: [-0.5px, 0.6px]
+        - ref: matrix_middle_num
+          shift: [-0.5px, 0.75px]
+        - ref: matrix_middle_num
+          shift: [0.5px, 0.75px]
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.5px]
+        - ref: matrix_inner_num
+          shift: [0.5px, 0.0px]
+        - ref: matrix_inner_top
+          shift: [1.8px, 0.81px]
+        - ref: thumbs_space_cluster
+          shift: [0.6px, 1.25px]
+        - ref: thumbs_space_cluster
+          shift: [0.5px, -px]
+        - ref: thumbs_layer_cluster
+          shift: [-0.5px, -0.55px]
+        - ref: matrix_ring_mod
+          shift: [0.5px , -0.5px]
+        - ref: matrix_outer_bottom
+          shift: [-0.75px, -0.5px]
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
+pcbs:
+  tutorial:
+    outlines:
+      main:
+        outline: board
+    footprints:
+      mx_hotswap:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: true
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      pico:
+        what: "Orpheus Pico"
+        params:
+          mounted: "both"
+          mountingType: "smd"
+        where: 
+          ref: matrix_inner_home
+          shift: [25, 11.5]
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          rotate: 180
+          shift: [0, -5]
+      trrs:
+        what: ceoloide/trrs_pj320a
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [40, -27]
+        params:
+          SL: GND
+          R2: GP15
+          TP: VCC # Tip and Ring 1 are joined together
+          reversible: true
+          symmetric: true
+      oled:
+        what: oled
+        params:
+          side: "f"
+          SDA: GP2
+          SCL: GP3
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [31, -16]
+      front_reset:
+        what: button
+        params:
+          side: "F"
+          from: GND
+          to: RUN
+        where: 
+          ref: matrix_inner_home
+          shift: [18, -27]
+      back_reset:
+        what: button
+        params:
+          side: "B"
+          from: GND
+          to: RUN
+        where: 
+          ref: matrix_inner_home
+          shift: [18, -27]
+      rotary:
+        what: rotary
+        params:
+          from: GP1
+          to: GP9
+          A: GP16
+          B: GND
+          C: GP17
+        where:
+          ref: matrix_outer_num
+          shift: [0, 0.75px]
+      mounting_thumb:
+        what: mountinghole
+        where:
+          ref: thumbs_space_cluster
+          shift: [8.0, px + 1.0]
+      mounting_bottom:
+        what: mountinghole
+        where:
+          ref: thumbs_space_cluster
+          shift: [-40.0, -7.5]
+      mounting_top:
+        what: mountinghole
+        where:
+          ref: matrix_middle_num
+          shift: [0, 14]
+      mounting_rotary:
+        what: mountinghole
+        where:
+          ref: matrix_outer_num
+          shift: [10, 28]
+cases:
