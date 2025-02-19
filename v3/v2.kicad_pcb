@@ -26003,6 +26003,102 @@
 		(layer "Dwgs.User")
 		(uuid "ffc5d316-142c-4948-a734-5a879407c1fb")
 	)
+	(gr_text "-"
+		(at 269.95 110.9 -0)
+		(layer "B.SilkS")
+		(uuid "1b58f1e8-9c9a-4ff4-b0e4-8de88902cbc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "-"
+		(at 269.95 115.5 -0)
+		(layer "B.SilkS")
+		(uuid "2325e73d-98c8-453a-84e3-2866e19b959b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+"
+		(at 270.038094 108.2 -0)
+		(layer "B.SilkS")
+		(uuid "55887ed6-eea6-40b4-a640-5d646ae4adca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+"
+		(at 270.038094 117.65 -0)
+		(layer "B.SilkS")
+		(uuid "e72f8577-3e09-499d-87e9-2d5790e9a128")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+"
+		(at 268.7 117.65 0)
+		(layer "F.SilkS")
+		(uuid "32634659-db6c-4906-836a-8381c6b60b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 268.7 108.2 0)
+		(layer "F.SilkS")
+		(uuid "4af83eab-8b33-4544-a184-d75203103b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 268.65 115.5 0)
+		(layer "F.SilkS")
+		(uuid "ba83777f-5414-4eb2-b817-e1af22f6f267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 268.6 110.9 0)
+		(layer "F.SilkS")
+		(uuid "f1945685-e74e-4e95-a224-da38ddde79c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 208.4 59.5)
 		(end 210.95 56.95)
