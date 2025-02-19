@@ -1,4 +1,4 @@
-25470130073664478
+25471870059317212
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102506,6 +102506,13 @@ Diode-dual
 
 0
 10
+2
+footprints
+EVQ-P7C-Reversible
+
+
+0
+8
 2
 footprints
 MX_LED
