@@ -5623,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 95.25 241.3 0)
 			(effects
 				(font
@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:SMD_Push"
+		(property "Footprint" "footprints:EVQ-P7C-Reversible"
 			(at 124.46 165.1 0)
 			(effects
 				(font
@@ -7811,7 +7811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reversible-kicad-footprints:SMD_Push"
+		(property "Footprint" "footprints:EVQ-P7C-Reversible"
 			(at 124.46 182.88 0)
 			(effects
 				(font
