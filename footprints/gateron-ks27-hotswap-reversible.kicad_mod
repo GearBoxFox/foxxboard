@@ -222,6 +222,12 @@
 	(pad "1" smd rect
 		(at -7.675 4.7)
 		(size 2.6 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "29c35544-606d-4063-8631-a46135761ec7")
+	)
+	(pad "1" smd rect
+		(at -7.675 4.7)
+		(size 2.6 2.6)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "a29f8df0-3fae-4edf-8d9c-bd5a875b13e3")
 	)
@@ -230,6 +236,18 @@
 		(size 2.6 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ab6912fc-e86a-4658-a0be-ebe6f39032e6")
+	)
+	(pad "1" smd rect
+		(at -6 6)
+		(size 2.6 2.6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "ad9d4daa-35e8-44e1-864b-c44fbb84de02")
+	)
+	(pad "2" smd rect
+		(at 6 6)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b2f355e1-1a85-431f-a09e-4292ef714124")
 	)
 	(pad "2" smd rect
 		(at 6 6)
@@ -242,5 +260,33 @@
 		(size 2.6 2.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bc008311-edc2-4fdd-abae-473b50c89a0a")
+	)
+	(pad "2" smd rect
+		(at 7.675 4.7)
+		(size 2.6 2.6)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "bbc62570-1592-4d5a-9521-38aa86c35110")
+	)
+	(model "C:/Users/lboog/Documents/GitHub/hackpad-v2/3d/Gateron_ks33_hotswap_socket.step"
+		(offset
+			(xyz -1.75 -10.45 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "C:/Users/lboog/Documents/GitHub/hackpad-v2/3d/KS33-low profile.step"
+		(offset
+			(xyz 0 0 -3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
