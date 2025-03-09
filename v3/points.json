@@ -1,0 +1,3666 @@
+{
+    "matrix_outer_bottom": {
+        "x": 110.7765238,
+        "y": -166.1318807,
+        "r": -15,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 27.299999999999997,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "outer_bottom",
+            "name": "matrix_outer_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "width": "1.5kc"
+                },
+                "name": "outer"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_outer_home": {
+        "x": 115.4870304,
+        "y": -148.5520306,
+        "r": -15,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 27.299999999999997,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "outer_home",
+            "name": "matrix_outer_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "width": "1.5kc"
+                },
+                "name": "outer"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_outer_top": {
+        "x": 120.197537,
+        "y": -130.9721806,
+        "r": -15,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 27.299999999999997,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "outer_top",
+            "name": "matrix_outer_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "width": "1.5kc"
+                },
+                "name": "outer"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_outer_num": {
+        "x": 124.9080437,
+        "y": -113.3923306,
+        "r": -15,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 27.299999999999997,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "outer_num",
+            "name": "matrix_outer_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "width": "1.5kc"
+                },
+                "name": "outer"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                10,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_pinky_mod": {
+        "x": 133.9587436,
+        "y": -172.3435378,
+        "r": -15,
+        "meta": {
+            "stagger": 18.2,
+            "spread": 24,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_mod",
+            "name": "matrix_pinky_mod",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": "1kc",
+                    "spread": "1.25kp"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "mod",
+            "bind": [
+                10,
+                10,
+                0,
+                10
+            ]
+        }
+    },
+    "matrix_pinky_bottom": {
+        "x": 138.6692503,
+        "y": -154.7636877,
+        "r": -15,
+        "meta": {
+            "stagger": 18.2,
+            "spread": 24,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_bottom",
+            "name": "matrix_pinky_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": "1kc",
+                    "spread": "1.25kp"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_pinky_home": {
+        "x": 143.3797569,
+        "y": -137.1838377,
+        "r": -15,
+        "meta": {
+            "stagger": 18.2,
+            "spread": 24,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_home",
+            "name": "matrix_pinky_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": "1kc",
+                    "spread": "1.25kp"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_pinky_top": {
+        "x": 148.0902635,
+        "y": -119.6039876,
+        "r": -15,
+        "meta": {
+            "stagger": 18.2,
+            "spread": 24,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_top",
+            "name": "matrix_pinky_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": "1kc",
+                    "spread": "1.25kp"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_pinky_num": {
+        "x": 152.8007701,
+        "y": -102.0241376,
+        "r": -15,
+        "meta": {
+            "stagger": 18.2,
+            "spread": 24,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "pinky_num",
+            "name": "matrix_pinky_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": "1kc",
+                    "spread": "1.25kp"
+                },
+                "rows": {},
+                "name": "pinky"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_ring_mod": {
+        "x": 152.5045195,
+        "y": -177.3128634,
+        "r": -15.5,
+        "meta": {
+            "stagger": 0,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_mod",
+            "name": "matrix_ring_mod",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "mod",
+            "bind": [
+                10,
+                0,
+                0,
+                10
+            ]
+        }
+    },
+    "matrix_ring_bottom": {
+        "x": 157.3682579,
+        "y": -159.7747892,
+        "r": -15.5,
+        "meta": {
+            "stagger": 0,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_bottom",
+            "name": "matrix_ring_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_ring_home": {
+        "x": 162.2319963,
+        "y": -142.2367149,
+        "r": -15.5,
+        "meta": {
+            "stagger": 0,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_home",
+            "name": "matrix_ring_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_ring_top": {
+        "x": 167.0957347,
+        "y": -124.6986406,
+        "r": -15.5,
+        "meta": {
+            "stagger": 0,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_top",
+            "name": "matrix_ring_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_ring_num": {
+        "x": 171.9594731,
+        "y": -107.1605664,
+        "r": -15.5,
+        "meta": {
+            "stagger": 0,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "ring_num",
+            "name": "matrix_ring_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "ring"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_middle_mod": {
+        "x": 171.6743202,
+        "y": -180.0347641,
+        "r": -15.5,
+        "meta": {
+            "stagger": 2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_mod",
+            "name": "matrix_middle_mod",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": 2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "mod",
+            "bind": [
+                10,
+                10,
+                0,
+                10
+            ]
+        }
+    },
+    "matrix_middle_bottom": {
+        "x": 176.5380586,
+        "y": -162.4966899,
+        "r": -15.5,
+        "meta": {
+            "stagger": 2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_bottom",
+            "name": "matrix_middle_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": 2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_middle_home": {
+        "x": 181.401797,
+        "y": -144.9586156,
+        "r": -15.5,
+        "meta": {
+            "stagger": 2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_home",
+            "name": "matrix_middle_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": 2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_middle_top": {
+        "x": 186.2655354,
+        "y": -127.4205414,
+        "r": -15.5,
+        "meta": {
+            "stagger": 2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_top",
+            "name": "matrix_middle_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": 2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_middle_num": {
+        "x": 191.1292738,
+        "y": -109.8824671,
+        "r": -15.5,
+        "meta": {
+            "stagger": 2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "middle_num",
+            "name": "matrix_middle_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": 2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "middle"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                0,
+                10,
+                0
+            ]
+        }
+    },
+    "matrix_index_mod": {
+        "x": 189.5079288,
+        "y": -187.5748171,
+        "r": -15.5,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_mod",
+            "name": "matrix_index_mod",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": -2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "mod",
+            "bind": [
+                10,
+                10,
+                0,
+                0
+            ]
+        }
+    },
+    "matrix_index_bottom": {
+        "x": 194.3716672,
+        "y": -170.0367428,
+        "r": -15.5,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_bottom",
+            "name": "matrix_index_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": -2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_index_home": {
+        "x": 199.2354056,
+        "y": -152.4986686,
+        "r": -15.5,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_home",
+            "name": "matrix_index_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": -2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_index_top": {
+        "x": 204.099144,
+        "y": -134.9605943,
+        "r": -15.5,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_top",
+            "name": "matrix_index_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": -2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                10,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_index_num": {
+        "x": 208.9628824,
+        "y": -117.42252,
+        "r": -15.5,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": 0,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "index_num",
+            "name": "matrix_index_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "key": {
+                    "stagger": -2.5,
+                    "spread": "kp"
+                },
+                "rows": {},
+                "name": "index"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_bottom": {
+        "x": 212.3581375,
+        "y": -177.6199071,
+        "r": -16,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_bottom",
+            "name": "matrix_inner_bottom",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "stagger": -2.5,
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "name": "inner"
+            },
+            "row": "bottom",
+            "bind": [
+                10,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_home": {
+        "x": 217.3747374,
+        "y": -160.1249442,
+        "r": -16,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_home",
+            "name": "matrix_inner_home",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "stagger": -2.5,
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "name": "inner"
+            },
+            "row": "home",
+            "bind": [
+                10,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_top": {
+        "x": 222.3913373,
+        "y": -142.6299813,
+        "r": -16,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_top",
+            "name": "matrix_inner_top",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "stagger": -2.5,
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "name": "inner"
+            },
+            "row": "top",
+            "bind": [
+                10,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "matrix_inner_num": {
+        "x": 227.4079372,
+        "y": -125.1350184,
+        "r": -16,
+        "meta": {
+            "stagger": -2.5,
+            "spread": 19.2,
+            "splay": -0.5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "inner_num",
+            "name": "matrix_inner_num",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "outer": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "width": "1.5kc"
+                        },
+                        "name": "outer"
+                    },
+                    "pinky": {
+                        "key": {
+                            "stagger": "1kc",
+                            "spread": "1.25kp"
+                        },
+                        "rows": {},
+                        "name": "pinky"
+                    },
+                    "ring": {
+                        "key": {
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "ring"
+                    },
+                    "middle": {
+                        "key": {
+                            "stagger": 2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "middle"
+                    },
+                    "index": {
+                        "key": {
+                            "stagger": -2.5,
+                            "spread": "kp"
+                        },
+                        "rows": {},
+                        "name": "index"
+                    },
+                    "inner": {
+                        "rows": {
+                            "mod": {
+                                "skip": true
+                            }
+                        },
+                        "key": {
+                            "stagger": -2.5,
+                            "splay": -0.5,
+                            "spread": "kp"
+                        },
+                        "name": "inner"
+                    }
+                },
+                "rows": {
+                    "mod": {},
+                    "bottom": {},
+                    "home": {},
+                    "top": {},
+                    "num": {}
+                },
+                "name": "matrix"
+            },
+            "col": {
+                "rows": {
+                    "mod": {
+                        "skip": true
+                    }
+                },
+                "key": {
+                    "stagger": -2.5,
+                    "splay": -0.5,
+                    "spread": "kp"
+                },
+                "name": "inner"
+            },
+            "row": "num",
+            "bind": [
+                0,
+                0,
+                10,
+                10
+            ]
+        }
+    },
+    "thumbs_first_cluster": {
+        "x": 165.3008461,
+        "y": -203.8658845,
+        "r": -21,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                0,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "first_cluster",
+            "name": "thumbs_first_cluster",
+            "row_net": "GP14",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "first": {
+                        "key": {
+                            "splay": -5
+                        },
+                        "rows": {},
+                        "name": "first"
+                    },
+                    "second": {
+                        "key": {
+                            "splay": -5,
+                            "shift": [
+                                2.5,
+                                0
+                            ]
+                        },
+                        "rows": {},
+                        "name": "second"
+                    },
+                    "layer": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "layer"
+                    },
+                    "space": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                7.5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "space"
+                    }
+                },
+                "rows": {
+                    "cluster": {
+                        "row_net": "GP14"
+                    }
+                },
+                "name": "thumbs"
+            },
+            "col": {
+                "key": {
+                    "splay": -5
+                },
+                "rows": {},
+                "name": "first"
+            },
+            "row": "cluster",
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "thumbs_second_cluster": {
+        "x": 184.538995,
+        "y": -211.484109,
+        "r": -26,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": -5,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                2.5,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "second_cluster",
+            "name": "thumbs_second_cluster",
+            "row_net": "GP14",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "first": {
+                        "key": {
+                            "splay": -5
+                        },
+                        "rows": {},
+                        "name": "first"
+                    },
+                    "second": {
+                        "key": {
+                            "splay": -5,
+                            "shift": [
+                                2.5,
+                                0
+                            ]
+                        },
+                        "rows": {},
+                        "name": "second"
+                    },
+                    "layer": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "layer"
+                    },
+                    "space": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                7.5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "space"
+                    }
+                },
+                "rows": {
+                    "cluster": {
+                        "row_net": "GP14"
+                    }
+                },
+                "name": "thumbs"
+            },
+            "col": {
+                "key": {
+                    "splay": -5,
+                    "shift": [
+                        2.5,
+                        0
+                    ]
+                },
+                "rows": {},
+                "name": "second"
+            },
+            "row": "cluster",
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "thumbs_layer_cluster": {
+        "x": 202.6951464,
+        "y": -221.3054623,
+        "r": -36,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": -10,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                5,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "layer_cluster",
+            "name": "thumbs_layer_cluster",
+            "column_net": "GP8",
+            "row_net": "GP14",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "first": {
+                        "key": {
+                            "splay": -5
+                        },
+                        "rows": {},
+                        "name": "first"
+                    },
+                    "second": {
+                        "key": {
+                            "splay": -5,
+                            "shift": [
+                                2.5,
+                                0
+                            ]
+                        },
+                        "rows": {},
+                        "name": "second"
+                    },
+                    "layer": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "layer"
+                    },
+                    "space": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                7.5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "space"
+                    }
+                },
+                "rows": {
+                    "cluster": {
+                        "row_net": "GP14"
+                    }
+                },
+                "name": "thumbs"
+            },
+            "col": {
+                "key": {
+                    "splay": -10,
+                    "shift": [
+                        5,
+                        0
+                    ],
+                    "column_net": "GP8"
+                },
+                "rows": {},
+                "name": "layer"
+            },
+            "row": "cluster",
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    "thumbs_space_cluster": {
+        "x": 218.5841086,
+        "y": -234.4592763,
+        "r": -46,
+        "meta": {
+            "stagger": 0,
+            "spread": 18.2,
+            "splay": -10,
+            "origin": [
+                0,
+                0
+            ],
+            "orient": 0,
+            "shift": [
+                7.5,
+                0
+            ],
+            "rotate": 0,
+            "width": 18.5,
+            "height": 18.5,
+            "padding": 18.2,
+            "autobind": 10,
+            "skip": false,
+            "asym": "both",
+            "colrow": "space_cluster",
+            "name": "thumbs_space_cluster",
+            "column_net": "GP8",
+            "row_net": "GP14",
+            "zone": {
+                "key": {
+                    "padding": "1kc",
+                    "spread": "1kc"
+                },
+                "columns": {
+                    "first": {
+                        "key": {
+                            "splay": -5
+                        },
+                        "rows": {},
+                        "name": "first"
+                    },
+                    "second": {
+                        "key": {
+                            "splay": -5,
+                            "shift": [
+                                2.5,
+                                0
+                            ]
+                        },
+                        "rows": {},
+                        "name": "second"
+                    },
+                    "layer": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "layer"
+                    },
+                    "space": {
+                        "key": {
+                            "splay": -10,
+                            "shift": [
+                                7.5,
+                                0
+                            ],
+                            "column_net": "GP8"
+                        },
+                        "rows": {},
+                        "name": "space"
+                    }
+                },
+                "rows": {
+                    "cluster": {
+                        "row_net": "GP14"
+                    }
+                },
+                "name": "thumbs"
+            },
+            "col": {
+                "key": {
+                    "splay": -10,
+                    "shift": [
+                        7.5,
+                        0
+                    ],
+                    "column_net": "GP8"
+                },
+                "rows": {},
+                "name": "space"
+            },
+            "row": "cluster",
+            "bind": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}
