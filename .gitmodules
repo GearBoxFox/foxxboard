@@ -1,0 +1,3 @@
+[submodule "rmk-config"]
+	path = rmk-config
+	url = https://github.com/GearBoxFox/rmk-config
