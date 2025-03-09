@@ -23,6 +23,7 @@
 
 | Name                 | Qty | Price             |
 |----------------------|-----|-------------------|
+| PCB                  | 5   | $14.59            |
 | GLP ks33 Banana      | 64  | $21.48 w/shipping |
 | THT 1N4148 Diodes    | 64  | Hackclub          |
 | EC11 Encoder         | 2   | $0.99 AliExpress  |
@@ -33,5 +34,5 @@
 | Nice!View            | 2   | $40.0             |
 | 3.7v LiPo Battery    | 2   | $6.0              |
 | EVQ-P7C01P Switch    | 2   | $0.56 Digikey     |
-| Total (No Ali)       | NA  | $127.45           |
-| Total (Ali)          | NA  | $43.04            |
+| Total (No Ali)       | NA  | $142.04           |
+| Total (Ali)          | NA  | $57.63            |
