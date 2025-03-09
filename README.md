@@ -21,15 +21,17 @@
 
 # BOM 
 
-| Name            | Qty | Price             |
-| -----------     | --- | ----------------- |
-| GLP ks33 Banana | 64  | $21.48 w/shipping |
-| THT 1N4148 Diodes | 64 | Hackclub         |
-| EC11 Encoder      | 2  | $0.99 AliExpress |
-| True Nice!Nano V2 | 2 | $50 |
-| Clone Nice!Nano V2 | 2 | $2.69 AliExpress |
-| GLP Hot-swap sockets | 100 | $8.42 AliExpress |
-| 0.91" OLED Display   | 2   | $3.26 AliExpress |
-| Nice!View            | 2   | $40.0            |
-| 3.7v LiPo Battery    | 2   | $6.0             |
-| EVQ-P7C01P Switch    | 2   | $0.56 Digikey    |
+| Name                 | Qty | Price             |
+|----------------------|-----|-------------------|
+| GLP ks33 Banana      | 64  | $21.48 w/shipping |
+| THT 1N4148 Diodes    | 64  | Hackclub          |
+| EC11 Encoder         | 2   | $0.99 AliExpress  |
+| True Nice!Nano V2    | 2   | $50               |
+| Clone Nice!Nano V2   | 2   | $2.69 AliExpress  |
+| GLP Hot-swap sockets | 100 | $8.42 AliExpress  |
+| 0.91" OLED Display   | 2   | $3.26 AliExpress  |
+| Nice!View            | 2   | $40.0             |
+| 3.7v LiPo Battery    | 2   | $6.0              |
+| EVQ-P7C01P Switch    | 2   | $0.56 Digikey     |
+| Total (No Ali)       | NA  | $127.45           |
+| Total (Ali)          | NA  | $43.04            |
