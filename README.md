@@ -6,6 +6,8 @@
 - BLE wireless support using nice!nano v2
 - Traditional pinky row using 1.5u keys
 - Low profile using Gateron k33 switches 
+- 2x nice!view for low powered HUD
+- Custom firmware written in RMK using Rust :ferrisyippee: 
 
 # PCB
 
