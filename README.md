@@ -26,13 +26,19 @@
 | PCB                  | 5   | $14.59 w/shipping |
 | GLP ks33 Banana      | 64  | $21.48 w/shipping |
 | THT 1N4148 Diodes    | 64  | Hackclub          |
-| EC11 Encoder         | 2   | $0.99 AliExpress  |
+| EC11 Encoder         | 2   | $2.00 AliExpress  |
 | True Nice!Nano V2    | 2   | $50               |
-| Clone Nice!Nano V2   | 2   | $2.69 AliExpress  |
+| Clone Nice!Nano V2   | 2   | $5.42 AliExpress  |
 | GLP Hot-swap sockets | 100 | $8.42 AliExpress  |
-| 0.91" OLED Display   | 2   | $3.26 AliExpress  |
+| 0.91" OLED Display   | 2   | $3.20 AliExpress  |
 | Nice!View            | 2   | $40.0             |
-| 3.7v LiPo Battery    | 2   | $6.0              |
+| 3.7v LiPo Battery    | 2   | $6.00             |
 | EVQ-P7C01P Switch    | 2   | $0.56 Digikey     |
-| Total (No Ali)       | NA  | $142.04           |
-| Total (Ali)          | NA  | $57.63            |
+
+| Supplier    | Price (+ Shipping) | 
+|             |                    |
+| JLCPCB      | $14.59             |
+| Keebio      | $22.48             |
+| AliExpress  | $20.20             |
+| Typeractive | $10.90             |
+| Total       | $68.17             |
