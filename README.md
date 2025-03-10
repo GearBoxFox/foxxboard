@@ -23,7 +23,7 @@
 
 | Name                 | Qty | Price             |
 |----------------------|-----|-------------------|
-| PCB                  | 5   | $14.59            |
+| PCB                  | 5   | $14.59 w/shipping |
 | GLP ks33 Banana      | 64  | $21.48 w/shipping |
 | THT 1N4148 Diodes    | 64  | Hackclub          |
 | EC11 Encoder         | 2   | $0.99 AliExpress  |
