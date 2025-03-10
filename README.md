@@ -19,7 +19,8 @@
 
 # Renders
 
-*insert render (cad?)*
+![Top Case](./assets/foxxboard_case_top.png)
+![Bottom Case](./assets/foxxboard_case_bottom.png)
 
 # BOM 
 
