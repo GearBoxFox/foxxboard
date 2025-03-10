@@ -13,7 +13,9 @@
 
 # PCB
 
-*[insert pcb screenshots here*
+![PCB Schematic](./assets/foxxboard_schematic.png)
+![PCB](./assets/foxxboard_pcb.png)
+![PCB 3D](./assets/foxxboard_pcb_3d.png)
 
 # Renders
 
