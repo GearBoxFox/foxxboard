@@ -36,7 +36,7 @@
 | EVQ-P7C01P Switch    | 2   | $0.56 Digikey     |
 
 | Supplier    | Price (+ Shipping) | 
-|             |                    |
+|-------------|--------------------|
 | JLCPCB      | $14.59             |
 | Keebio      | $22.48             |
 | AliExpress  | $20.20             |
