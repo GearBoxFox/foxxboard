@@ -11,6 +11,11 @@
 - 2x nice!view for low powered HUD
 - Custom firmware written in RMK using Rust :ferrisyippee: 
 
+## > [!NOTE]
+> The firmware for the display module is still a WIP, but I'm talking with the head RMK dev 
+> to get it fully running. The firmware bundled with this has parts of a display demo, and my 
+> hackpad has a working display in RMK.
+
 # PCB
 
 ![PCB Schematic](./assets/foxxboard_schematic.png)
@@ -23,6 +28,10 @@
 ![Bottom Case](./assets/foxxboard_case_bottom.png)
 
 # BOM 
+
+
+## > [!NOTE]
+> I plan on printing my own case
 
 | Name                 | Qty | Price             |
 |----------------------|-----|-------------------|
@@ -45,3 +54,4 @@
 | AliExpress  | $20.20             |
 | Typeractive | $10.90             |
 | Total       | $68.17             |
+
