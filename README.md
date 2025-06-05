@@ -33,7 +33,9 @@ This keyboard was inspired by the Lily85 keyboard layout, keeping a more standar
 
 
 ## > [!NOTE]
-> I plan on printing my own case
+> I plan on printing my own case.
+>
+> I also need to double check prices on things as there have almost certainly been price changes.
 
 | Name                 | Qty | Price             |
 |----------------------|-----|-------------------|
@@ -41,11 +43,9 @@ This keyboard was inspired by the Lily85 keyboard layout, keeping a more standar
 | GLP ks33 Banana      | 64  | $21.48 w/shipping |
 | THT 1N4148 Diodes    | 64  | Hackclub          |
 | EC11 Encoder         | 2   | $2.00 AliExpress  |
-| True Nice!Nano V2    | 2   | $50               |
 | Clone Nice!Nano V2   | 2   | $5.42 AliExpress  |
 | GLP Hot-swap sockets | 100 | $8.42 AliExpress  |
 | 0.91" OLED Display   | 2   | $3.20 AliExpress  |
-| Nice!View            | 2   | $40.0             |
 | 3.7v LiPo Battery    | 2   | $6.00             |
 | EVQ-P7C01P Switch    | 2   | $0.56 Digikey     |
 
@@ -56,4 +56,9 @@ This keyboard was inspired by the Lily85 keyboard layout, keeping a more standar
 | AliExpress  | $20.20             |
 | Typeractive | $10.90             |
 | Total       | $68.17             |
+
+| Extras               | Qty | Price            |
+|----------------------|-----|------------------|
+| Nice!View            | 2   | $40              |
+| True Nice!Nano V2    | 2   | $50              |
 
