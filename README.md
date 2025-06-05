@@ -1,4 +1,6 @@
 ## Foxxboard: A Wireless, split ergonomic keyboard for normal keyboard users
+---
+This keyboard was inspired by the Lily85 keyboard layout, keeping a more standard 64 key layout while also gaining the bonus ergonomics of a split keyboard. I designed it to be a multi purpose keyboard, ergonomic for typing while still having access to all the needed keys for competitive gaming. I also decided to build it wirelessly so I can easily take and use it with my laptop on the go.
 
 *insert final image here*
 
